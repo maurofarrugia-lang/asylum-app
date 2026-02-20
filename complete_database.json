@@ -1,0 +1,1111 @@
+{
+  "definitions": [
+    {
+      "term": "Third-country national",
+      "definition": "A person who is not a citizen of the Union and does not enjoy the right to free movement under Union law.",
+      "regulation": ""
+    },
+    {
+      "term": "Stateless person",
+      "definition": "A person not considered a national by any State under the operation of its law.",
+      "regulation": ""
+    },
+    {
+      "term": "Applicant",
+      "definition": "A third-country national or stateless person who has made an application for international protection pending a final decision.",
+      "regulation": ""
+    },
+    {
+      "term": "Application for international protection",
+      "definition": "A request for protection seeking refugee or subsidiary protection status.",
+      "regulation": ""
+    },
+    {
+      "term": "Refugee",
+      "definition": "Defined in Regulation 2024/1347: a person with a well‑founded fear of persecution for specific grounds.",
+      "regulation": ""
+    },
+    {
+      "term": "Person eligible for subsidiary protection",
+      "definition": "Defined in Regulation 2024/1347: faces real risk of serious harm if returned.",
+      "regulation": ""
+    },
+    {
+      "term": "Beneficiary of international protection",
+      "definition": "A person granted refugee or subsidiary protection status.",
+      "regulation": ""
+    },
+    {
+      "term": "Beneficiary of temporary protection",
+      "definition": "Person benefiting from temporary protection as defined in Eurodac Regulation.",
+      "regulation": ""
+    },
+    {
+      "term": "Admitted person",
+      "definition": "A person accepted for admission under Resettlement Regulation or national resettlement scheme.",
+      "regulation": ""
+    },
+    {
+      "term": "Family member",
+      "definition": "Spouse/partner, minor child, or parent/adult responsible for a minor applicant or beneficiary.",
+      "regulation": ""
+    },
+    {
+      "term": "Relative",
+      "definition": "Adult aunt/uncle or grandparent.",
+      "regulation": ""
+    },
+    {
+      "term": "Minor",
+      "definition": "A person below the age of 18 years.",
+      "regulation": ""
+    },
+    {
+      "term": "Unaccompanied minor",
+      "definition": "A minor arriving without an adult responsible, or left unaccompanied after arrival.",
+      "regulation": ""
+    },
+    {
+      "term": "Representative",
+      "definition": "A person/organisation appointed to assist an unaccompanied minor.",
+      "regulation": ""
+    },
+    {
+      "term": "Applicant in need of special procedural guarantees",
+      "definition": "Applicant with limited ability to benefit from procedure due to individual circumstances.",
+      "regulation": ""
+    },
+    {
+      "term": "Examination of an application",
+      "definition": "Assessment of admissibility or merits, excluding responsibility determination.",
+      "regulation": ""
+    },
+    {
+      "term": "Final decision",
+      "definition": "Decision no longer subject to remedy or final under national law.",
+      "regulation": ""
+    },
+    {
+      "term": "Withdrawal of an application",
+      "definition": "Explicit or implicit withdrawal of an application or protection.",
+      "regulation": ""
+    },
+    {
+      "term": "Subsequent application",
+      "definition": "A new application after a final decision on a previous one.",
+      "regulation": ""
+    },
+    {
+      "term": "Member State responsible",
+      "definition": "The Member State responsible per Regulation 2024/1351.",
+      "regulation": ""
+    },
+    {
+      "term": "Migratory pressure",
+      "definition": "Arrivals of such scale that they create disproportionate obligations on a Member State.",
+      "regulation": ""
+    },
+    {
+      "term": "Significant migratory situation",
+      "definition": "Cumulative arrivals causing system capacity to be reached.",
+      "regulation": ""
+    },
+    {
+      "term": "Illegal stay",
+      "definition": "As defined in Schengen Borders Code.",
+      "regulation": ""
+    },
+    {
+      "term": "Absconding",
+      "definition": "Not remaining available to authorities under defined conditions.",
+      "regulation": ""
+    },
+    {
+      "term": "Risk of absconding",
+      "definition": "Risk based on objective criteria in national law.",
+      "regulation": ""
+    },
+    {
+      "term": "Search and rescue operations",
+      "definition": "As defined in the 1979 Hamburg Convention.",
+      "regulation": ""
+    },
+    {
+      "term": "Biometric data",
+      "definition": "Fingerprint data, facial image data, or both.",
+      "regulation": ""
+    },
+    {
+      "term": "Fingerprint data",
+      "definition": "Captured fingerprints used for comparison.",
+      "regulation": ""
+    },
+    {
+      "term": "Facial image data",
+      "definition": "Images used for biometric comparison.",
+      "regulation": ""
+    },
+    {
+      "term": "Eurodac data",
+      "definition": "All biometric/alphanumeric data stored in Eurodac.",
+      "regulation": ""
+    },
+    {
+      "term": "Hit",
+      "definition": "A biometric match within Eurodac.",
+      "regulation": ""
+    },
+    {
+      "term": "Dataset",
+      "definition": "A set of biometric, identity or alphanumeric data in Eurodac.",
+      "regulation": ""
+    },
+    {
+      "term": "Identity data",
+      "definition": "Personal identity details stored in CIR/Eurodac.",
+      "regulation": ""
+    },
+    {
+      "term": "CIR",
+      "definition": "Common Identity Repository established by Regulation 2019/818.",
+      "regulation": ""
+    },
+    {
+      "term": "Residence document",
+      "definition": "Authorisation to stay, excluding visas and temporary permits during assessment.",
+      "regulation": ""
+    },
+    {
+      "term": "Visa",
+      "definition": "Authorisation for transit or intended stay.",
+      "regulation": ""
+    },
+    {
+      "term": "Diploma or qualification",
+      "definition": "Qualification obtained after ≥1 academic year in a recognised Member State programme.",
+      "regulation": ""
+    },
+    {
+      "term": "Education establishment",
+      "definition": "Recognised public/private institution providing education or training.",
+      "regulation": ""
+    },
+    {
+      "term": "EU Solidarity Coordinator",
+      "definition": "Person appointed under Regulation 2024/1351.",
+      "regulation": ""
+    },
+    {
+      "term": "Benefitting Member State",
+      "definition": "Member State receiving solidarity contributions.",
+      "regulation": ""
+    },
+    {
+      "term": "Contributing Member State",
+      "definition": "Member State providing solidarity contributions.",
+      "regulation": ""
+    },
+    {
+      "term": "National Access Point",
+      "definition": "Designated channel for Eurodac queries.",
+      "regulation": ""
+    },
+    {
+      "term": "Europol Access Point",
+      "definition": "Europol’s designated Eurodac access channel.",
+      "regulation": ""
+    },
+    {
+      "term": "eu-LISA",
+      "definition": "Agency responsible for operational management of Eurodac.",
+      "regulation": ""
+    },
+    {
+      "term": "Adequate capacity",
+      "definition": "Capacity required for asylum/return border procedures.",
+      "regulation": ""
+    },
+    {
+      "term": "refugee",
+      "definition": "Defined per Regulation 2024/1347: fear of persecution on protected grounds",
+      "regulation": "1348/2024"
+    },
+    {
+      "term": "person eligible for subsidiary protection",
+      "definition": "Faces real risk of serious harm per Regulation 2024/1347",
+      "regulation": "1348/2024"
+    },
+    {
+      "term": "refugee status",
+      "definition": "Recognition as refugee",
+      "regulation": "1348/2024"
+    },
+    {
+      "term": "subsidiary protection status",
+      "definition": "Recognition as subsidiary protection beneficiary",
+      "regulation": "1348/2024"
+    },
+    {
+      "term": "international protection",
+      "definition": "Refugee or subsidiary protection status",
+      "regulation": "1348/2024"
+    },
+    {
+      "term": "minor",
+      "definition": "Person under 18 years",
+      "regulation": "1348/2024"
+    },
+    {
+      "term": "unaccompanied minor",
+      "definition": "Minor without adult responsible",
+      "regulation": "1348/2024"
+    },
+    {
+      "term": "final decision",
+      "definition": "Decision no longer challengeable under Chapter V",
+      "regulation": "1348/2024"
+    },
+    {
+      "term": "examination of application",
+      "definition": "Assessment of admissibility or merits",
+      "regulation": "1348/2024"
+    },
+    {
+      "term": "biometric data",
+      "definition": "As defined in Regulation 2024/1358",
+      "regulation": "1348/2024"
+    },
+    {
+      "term": "adequate capacity",
+      "definition": "Capacity needed for border procedures",
+      "regulation": "1348/2024"
+    },
+    {
+      "term": "application for international protection",
+      "definition": "Request for protection",
+      "regulation": "1348/2024"
+    },
+    {
+      "term": "applicant",
+      "definition": "Person with pending application",
+      "regulation": "1348/2024"
+    },
+    {
+      "term": "applicant needing special procedural guarantees",
+      "definition": "Applicant with limited ability to comply",
+      "regulation": "1348/2024"
+    },
+    {
+      "term": "stateless person",
+      "definition": "Not considered national by any State",
+      "regulation": "1348/2024"
+    },
+    {
+      "term": "determining authority",
+      "definition": "Body responsible for examining applications",
+      "regulation": "1348/2024"
+    },
+    {
+      "term": "withdrawal of international protection",
+      "definition": "Revocation or refusal to renew protection",
+      "regulation": "1348/2024"
+    },
+    {
+      "term": "remain in the Member State",
+      "definition": "Right to remain on territory/border/transit zones",
+      "regulation": "1348/2024"
+    },
+    {
+      "term": "subsequent application",
+      "definition": "Application after final decision",
+      "regulation": "1348/2024"
+    },
+    {
+      "term": "Member State responsible",
+      "definition": "State responsible under Regulation 2024/1351",
+      "regulation": "1348/2024"
+    },
+    {
+      "term": "applicant for international protection",
+      "definition": "Person applying for refugee/subsidiary protection",
+      "regulation": "1358/2024"
+    },
+    {
+      "term": "person registered for admission",
+      "definition": "Person registered under resettlement procedures",
+      "regulation": "1358/2024"
+    },
+    {
+      "term": "person admitted under national resettlement scheme",
+      "definition": "Person admitted through national resettlement pathway",
+      "regulation": "1358/2024"
+    },
+    {
+      "term": "humanitarian status under national law",
+      "definition": "National protection equivalent to international protection standards",
+      "regulation": "1358/2024"
+    },
+    {
+      "term": "Member State of origin",
+      "definition": "State transmitting data to Eurodac",
+      "regulation": "1358/2024"
+    },
+    {
+      "term": "third-country national",
+      "definition": "Person who is not EU citizen",
+      "regulation": "1358/2024"
+    },
+    {
+      "term": "illegal stay",
+      "definition": "Presence on territory without meeting legal entry/residence conditions",
+      "regulation": "1358/2024"
+    },
+    {
+      "term": "beneficiary of international protection",
+      "definition": "Refugee or subsidiary protection holder",
+      "regulation": "1358/2024"
+    },
+    {
+      "term": "beneficiary of temporary protection",
+      "definition": "Person under temporary protection regime",
+      "regulation": "1358/2024"
+    },
+    {
+      "term": "hit",
+      "definition": "Biometric match in Eurodac",
+      "regulation": "1358/2024"
+    },
+    {
+      "term": "National Access Point",
+      "definition": "Designated national interface for Eurodac queries",
+      "regulation": "1358/2024"
+    },
+    {
+      "term": "Europol Access Point",
+      "definition": "Europol's interface for Eurodac queries",
+      "regulation": "1358/2024"
+    },
+    {
+      "term": "eu-LISA",
+      "definition": "Agency managing Eurodac",
+      "regulation": "1358/2024"
+    },
+    {
+      "term": "Eurodac data",
+      "definition": "Biometric and alphanumeric stored datasets",
+      "regulation": "1358/2024"
+    },
+    {
+      "term": "serious criminal offences",
+      "definition": "Offences under Framework Decision 2002/584/JHA",
+      "regulation": "1358/2024"
+    },
+    {
+      "term": "terrorist offences",
+      "definition": "Offences under Directive 2017/541",
+      "regulation": "1358/2024"
+    },
+    {
+      "term": "fingerprint data",
+      "definition": "Biometric fingerprint information",
+      "regulation": "1358/2024"
+    },
+    {
+      "term": "facial image data",
+      "definition": "Biometric facial imagery",
+      "regulation": "1358/2024"
+    },
+    {
+      "term": "biometric data",
+      "definition": "Fingerprints and/or facial images",
+      "regulation": "1358/2024"
+    },
+    {
+      "term": "alphanumeric data",
+      "definition": "Names, dates of birth and other text data",
+      "regulation": "1358/2024"
+    },
+    {
+      "term": "residence document",
+      "definition": "Authorisation to stay",
+      "regulation": "1358/2024"
+    },
+    {
+      "term": "identity data",
+      "definition": "Stored personal identity information",
+      "regulation": "1358/2024"
+    },
+    {
+      "term": "CIR",
+      "definition": "Common Identity Repository",
+      "regulation": "1358/2024"
+    },
+    {
+      "term": "dataset",
+      "definition": "A complete record for an individual in Eurodac",
+      "regulation": "1358/2024"
+    },
+    {
+      "term": "child/minor",
+      "definition": "Person below age 18",
+      "regulation": "1358/2024"
+    },
+    {
+      "term": "third-country national",
+      "definition": "A person who is not an EU citizen and not enjoying free movement rights",
+      "regulation": "1351/2024"
+    },
+    {
+      "term": "stateless person",
+      "definition": "A person not considered a national by any State",
+      "regulation": "1351/2024"
+    },
+    {
+      "term": "application for international protection",
+      "definition": "A request for protection seeking refugee or subsidiary protection",
+      "regulation": "1351/2024"
+    },
+    {
+      "term": "applicant",
+      "definition": "A person who has made such an application and awaits final decision",
+      "regulation": "1351/2024"
+    },
+    {
+      "term": "examination of an application",
+      "definition": "Examination of admissibility or merits excluding responsibility procedures",
+      "regulation": "1351/2024"
+    },
+    {
+      "term": "withdrawal of an application",
+      "definition": "Explicit or implicit withdrawal of an application",
+      "regulation": "1351/2024"
+    },
+    {
+      "term": "beneficiary of international protection",
+      "definition": "Person granted protection under Regulation 2024/1347",
+      "regulation": "1351/2024"
+    },
+    {
+      "term": "family member",
+      "definition": "Spouse/partner; minor child; parent or adult responsible for minor",
+      "regulation": "1351/2024"
+    },
+    {
+      "term": "relative",
+      "definition": "Adult aunt/uncle or grandparent",
+      "regulation": "1351/2024"
+    },
+    {
+      "term": "minor",
+      "definition": "A person below 18 years",
+      "regulation": "1351/2024"
+    },
+    {
+      "term": "unaccompanied minor",
+      "definition": "A minor arriving without an adult responsible",
+      "regulation": "1351/2024"
+    },
+    {
+      "term": "representative",
+      "definition": "Person or organisation assisting an unaccompanied minor",
+      "regulation": "1351/2024"
+    },
+    {
+      "term": "residence document",
+      "definition": "Authorisation to stay, excluding visas and temporary permits",
+      "regulation": "1351/2024"
+    },
+    {
+      "term": "visa",
+      "definition": "Authorisation for transit or intended stay",
+      "regulation": "1351/2024"
+    },
+    {
+      "term": "diploma or qualification",
+      "definition": "Qualification obtained after ≥1 academic year in a Member State programme",
+      "regulation": "1351/2024"
+    },
+    {
+      "term": "education establishment",
+      "definition": "Recognised education or vocational institution",
+      "regulation": "1351/2024"
+    },
+    {
+      "term": "absconding",
+      "definition": "Failure to remain available to competent authorities",
+      "regulation": "1351/2024"
+    },
+    {
+      "term": "risk of absconding",
+      "definition": "Objective reasons to believe a person may abscond",
+      "regulation": "1351/2024"
+    },
+    {
+      "term": "benefitting Member State",
+      "definition": "State benefitting from solidarity contributions",
+      "regulation": "1351/2024"
+    },
+    {
+      "term": "contributing Member State",
+      "definition": "State providing solidarity contributions",
+      "regulation": "1351/2024"
+    },
+    {
+      "term": "transfer",
+      "definition": "Implementation of a decision under Article 42",
+      "regulation": "1351/2024"
+    },
+    {
+      "term": "relocation",
+      "definition": "Transfer from benefitting to contributing Member State",
+      "regulation": "1351/2024"
+    },
+    {
+      "term": "search and rescue operations",
+      "definition": "Operations under the 1979 Hamburg Convention",
+      "regulation": "1351/2024"
+    },
+    {
+      "term": "migratory pressure",
+      "definition": "Arrivals causing disproportionate obligations on a Member State",
+      "regulation": "1351/2024"
+    },
+    {
+      "term": "significant migratory situation",
+      "definition": "Cumulative arrivals reaching system limits",
+      "regulation": "1351/2024"
+    },
+    {
+      "term": "reception conditions",
+      "definition": "Defined in Directive 2024/1346",
+      "regulation": "1351/2024"
+    },
+    {
+      "term": "admitted person",
+      "definition": "Person accepted under Resettlement Regulation or national scheme",
+      "regulation": "1351/2024"
+    },
+    {
+      "term": "EU Solidarity Coordinator",
+      "definition": "Coordinator appointed under Article 15",
+      "regulation": "1351/2024"
+    },
+    {
+      "term": "application for international protection / application",
+      "definition": "Request for protection made to a Member State by a third‑country national or stateless person understood to be seeking refugee or subsidiary protection status.",
+      "regulation": "D1346/2024"
+    },
+    {
+      "term": "applicant",
+      "definition": "A third‑country national or stateless person who has made an application for international protection that has not yet received a final decision.",
+      "regulation": "D1346/2024"
+    },
+    {
+      "term": "family members",
+      "definition": "Where the family existed before arrival and is present in the same Member State during the procedure: (a) spouse or unmarried partner treated as equivalent to spouse; (b) minor or adult dependent children of the couple or of the applicant (unmarried); (c) where the applicant is a minor and unmarried, the father, mother or another adult responsible (including an adult sibling).",
+      "regulation": "D1346/2024"
+    },
+    {
+      "term": "minor",
+      "definition": "A third‑country national or stateless person below 18 years of age.",
+      "regulation": "D1346/2024"
+    },
+    {
+      "term": "unaccompanied minor",
+      "definition": "A minor arriving unaccompanied by an adult responsible (by law or practice) and not effectively taken into such care, including a minor left unaccompanied after entry.",
+      "regulation": "D1346/2024"
+    },
+    {
+      "term": "reception conditions",
+      "definition": "The full set of measures that Member States grant to applicants under the Directive.",
+      "regulation": "D1346/2024"
+    },
+    {
+      "term": "material reception conditions",
+      "definition": "Reception conditions including housing, food, clothing and personal hygiene products provided in kind, as financial allowances, in vouchers or a combination, as well as a daily expenses allowance.",
+      "regulation": "D1346/2024"
+    },
+    {
+      "term": "daily expenses allowance",
+      "definition": "Allowance provided periodically (monetary, vouchers, in kind or a combination) that includes a monetary amount to enable a minimum degree of autonomy in daily life.",
+      "regulation": "D1346/2024"
+    },
+    {
+      "term": "detention",
+      "definition": "Confinement of an applicant by a Member State within a particular place where the person is deprived of freedom of movement.",
+      "regulation": "D1346/2024"
+    },
+    {
+      "term": "accommodation centre",
+      "definition": "Any place used for the collective housing of applicants.",
+      "regulation": "D1346/2024"
+    },
+    {
+      "term": "risk of absconding",
+      "definition": "Specific reasons and circumstances in an individual case, based on objective criteria defined by national law, to believe that an applicant might abscond.",
+      "regulation": "D1346/2024"
+    },
+    {
+      "term": "absconding",
+      "definition": "Action by which an applicant does not remain available to competent administrative or judicial authorities, such as by leaving the Member State’s territory without permission, for reasons not beyond the applicant’s control.",
+      "regulation": "D1346/2024"
+    },
+    {
+      "term": "representative",
+      "definition": "Natural person or organisation (including a public authority) appointed with necessary skills and expertise to represent, assist and act on behalf of an unaccompanied minor to safeguard the child’s best interests and well‑being and to enable the child to benefit from rights and comply with obligations under the Directive.",
+      "regulation": "D1346/2024"
+    },
+    {
+      "term": "applicant with special reception needs",
+      "definition": "An applicant who needs special conditions or guarantees in order to benefit from the rights and comply with the obligations under the Directive.",
+      "regulation": "D1346/2024"
+    }
+  ],
+  "euaa_guidelines": [
+    {
+      "title": "Practical Guide on Registration and Lodging of Applications",
+      "category": "Access to Asylum Procedure",
+      "date": "12/2025",
+      "url": "https://www.euaa.europa.eu/publications/practical-guide-registration-and-lodging-applications-international-protection",
+      "description": "Assists officers in daily work to register applications for international protection and supports officers responsible for lodging applications.",
+      "keywords": [
+        "registration",
+        "lodging",
+        "access",
+        "application"
+      ]
+    },
+    {
+      "title": "Practical Guide on Free Legal Counselling",
+      "category": "Legal Assistance",
+      "date": "10/2025",
+      "url": "https://euaa.europa.eu/publications/practical-guide-free-legal-counselling",
+      "description": "Guidance for design of national systems of free legal counselling within CEAS framework.",
+      "keywords": [
+        "legal aid",
+        "counselling",
+        "assistance",
+        "lawyer"
+      ]
+    },
+    {
+      "title": "Practical Guide on Information Provision in the Asylum Procedure",
+      "category": "Information Provision",
+      "date": "12/2024",
+      "url": "https://www.euaa.europa.eu/publications/practical-guide-information-provision-asylum-procedure",
+      "description": "Supports information providers during the asylum procedure with methodological guidance.",
+      "keywords": [
+        "information",
+        "communication",
+        "applicant rights"
+      ]
+    },
+    {
+      "title": "Practical Guide on Evidence and Risk Assessment",
+      "category": "Examination of Application",
+      "date": "01/2024",
+      "url": "https://euaa.europa.eu/publications/practical-guide-evidence-assessment",
+      "description": "Comprehensive methodology on gathering information, credibility assessment, and risk assessment.",
+      "keywords": [
+        "evidence",
+        "credibility",
+        "risk assessment",
+        "COI"
+      ]
+    },
+    {
+      "title": "Practical Guide on Audio Recording of Personal Interviews",
+      "category": "Interview Process",
+      "date": "10/2025",
+      "url": "https://euaa.europa.eu/publications/practical-guide-audio-recording-personal-interviews",
+      "description": "Guidance on setting up fit-for-purpose process for audio recording of personal interviews.",
+      "keywords": [
+        "audio recording",
+        "interview",
+        "documentation"
+      ]
+    },
+    {
+      "title": "Practical Guide on Membership of a Particular Social Group",
+      "category": "Qualification",
+      "date": "05/2025",
+      "url": "https://euaa.europa.eu/publications/practical-guide-membership-particular-social-group",
+      "description": "Assistance in applying the persecution ground of membership of particular social group.",
+      "keywords": [
+        "particular social group",
+        "persecution",
+        "LGBTQI",
+        "gender"
+      ]
+    },
+    {
+      "title": "Guidance on Remote Interviews",
+      "category": "Interview Process",
+      "date": "04/2025",
+      "url": "https://euaa.europa.eu/publications/guidance-remote-interviews",
+      "description": "Guidance on remote interviews in context of asylum procedure and migration management regulations.",
+      "keywords": [
+        "remote interview",
+        "online",
+        "virtual",
+        "COVID"
+      ]
+    },
+    {
+      "title": "Practical Guide on Nationality",
+      "category": "Qualification",
+      "date": "03/2025",
+      "url": "https://euaa.europa.eu/publications/practical-guide-nationality-concepts-related-nationality-and-statelessness-context-international-protection",
+      "description": "Explains concepts of nationality and statelessness and implications for international protection assessment.",
+      "keywords": [
+        "nationality",
+        "stateless",
+        "citizenship"
+      ]
+    },
+    {
+      "title": "Practical Guide on SOGIESC - Examination Procedure",
+      "category": "Vulnerable Groups",
+      "date": "11/2024",
+      "url": "https://euaa.europa.eu/publications/practical-guide-SOGIESC-examination-procedure",
+      "description": "Guidance on examining applications with SOGIESC-based claims (sexual orientation, gender identity, expression, sex characteristics).",
+      "keywords": [
+        "SOGIESC",
+        "LGBTQI",
+        "sexual orientation",
+        "gender identity"
+      ]
+    },
+    {
+      "title": "Practical Guide on Interpretation in the Asylum Procedure",
+      "category": "Language Services",
+      "date": "02/2024",
+      "url": "https://euaa.europa.eu/publications/practical-guide-interpretation-asylum-procedure",
+      "description": "Informs interpreters on their role, key principles, and guidance on interpreting in line with international standards.",
+      "keywords": [
+        "interpretation",
+        "translator",
+        "language",
+        "interpreter"
+      ]
+    },
+    {
+      "title": "Practical Guide on Qualification for International Protection",
+      "category": "Qualification",
+      "date": "04/2018",
+      "url": "https://euaa.europa.eu/publications/practical-guide-qualification-international-protection",
+      "description": "Assists case officers in examining applications and applying legal criteria for refugee status and subsidiary protection.",
+      "keywords": [
+        "qualification",
+        "refugee status",
+        "subsidiary protection"
+      ]
+    },
+    {
+      "title": "Guidance on the Dublin Procedure",
+      "category": "Dublin Procedure",
+      "date": "03/2020",
+      "url": "https://www.euaa.europa.eu/publications/guidance-dublin-procedure",
+      "description": "Operational standards and indicators for implementing Dublin III Regulation in harmonised way.",
+      "keywords": [
+        "Dublin",
+        "responsibility",
+        "family reunification"
+      ]
+    },
+    {
+      "title": "Practical Guide on Family Tracing - Part I",
+      "category": "Family Unity",
+      "date": "04/2025",
+      "url": "https://euaa.europa.eu/publications/practical-guide-family-tracing-part-i",
+      "description": "Supports EU+ countries in tracing family members of unaccompanied children in line with best interests.",
+      "keywords": [
+        "family tracing",
+        "unaccompanied minors",
+        "children",
+        "best interests"
+      ]
+    },
+    {
+      "title": "Practical Guide on Family Tracing - Part II",
+      "category": "Family Unity",
+      "date": "04/2025",
+      "url": "https://euaa.europa.eu/publications/practical-guide-family-tracing-part-ii",
+      "description": "Supports case officers in prioritisation of family cases under asylum and migration management regulation.",
+      "keywords": [
+        "family tracing",
+        "prioritisation",
+        "family members"
+      ]
+    },
+    {
+      "title": "Practical Guide on Exclusion for Serious Crimes",
+      "category": "Exclusion",
+      "date": "12/2021",
+      "url": "https://euaa.europa.eu/publications/practical-guide-exclusion-serious-non-political-crimes",
+      "description": "Explains constitutive elements of serious non-political crimes exclusion ground.",
+      "keywords": [
+        "exclusion",
+        "serious crimes",
+        "criminal",
+        "Article 12"
+      ]
+    },
+    {
+      "title": "Practical Guide on Quality Assurance in Asylum Procedures",
+      "category": "Quality Assurance",
+      "date": "05/2024",
+      "url": "https://euaa.europa.eu/publications/practical-guide-quality-assurance-asylum-procedures",
+      "description": "Supports asylum administrations to implement quality assurance methodology and develop quality management systems.",
+      "keywords": [
+        "quality",
+        "QA",
+        "standards",
+        "monitoring"
+      ]
+    },
+    {
+      "title": "Operational Standards and Indicators on the Asylum Procedure",
+      "category": "Operational Standards",
+      "date": "11/2025",
+      "url": "https://www.euaa.europa.eu/sites/default/files/publications/2025-12/2025_Operational-Standards-and-Indicators-on-the-Asylum-Procedure_EN.pdf",
+      "description": "Practical tool to support Member States achieve fair and effective asylum procedures and strengthen CEAS.",
+      "keywords": [
+        "operational standards",
+        "indicators",
+        "best practices"
+      ]
+    },
+    {
+      "title": "Operational Standards on Vulnerability-related Aspects",
+      "category": "Vulnerable Groups",
+      "date": "11/2025",
+      "url": "https://euaa.europa.eu/publications/operational-standards-indicators-vulnerability-related-aspects-asylum-procedure",
+      "description": "Standards and indicators for applicants in vulnerable situations with theoretical introduction to vulnerability.",
+      "keywords": [
+        "vulnerability",
+        "special needs",
+        "victims",
+        "trauma"
+      ]
+    },
+    {
+      "title": "Guidance on Contingency Planning and Preparedness",
+      "category": "Crisis Management",
+      "date": "05/2024",
+      "url": "https://euaa.europa.eu/publications/guidance-contingency-planning-preparedness-asylum-procedure",
+      "description": "Operational standards on contingency planning to help EU+ countries build or review national contingency plans.",
+      "keywords": [
+        "contingency",
+        "crisis",
+        "emergency",
+        "preparedness"
+      ]
+    },
+    {
+      "title": "Practical Guide on the Management of a Reception Centre",
+      "category": "Reception",
+      "date": "12/2025",
+      "url": "https://www.euaa.europa.eu/publications/practical-guide-management-reception-centre-arrival",
+      "description": "Supports national administrations in implementing key aspects of collective reception centres management.",
+      "keywords": [
+        "reception",
+        "accommodation",
+        "centre management"
+      ]
+    },
+    {
+      "title": "Guidelines on Alternatives to Detention",
+      "category": "Detention",
+      "date": "12/2024",
+      "url": "https://euaa.europa.eu/publications/guidelines-alternatives-detention",
+      "description": "Guidelines on defining, establishing, deciding, implementing, reviewing and ending alternatives to detention.",
+      "keywords": [
+        "detention",
+        "alternatives",
+        "liberty",
+        "border procedure"
+      ]
+    },
+    {
+      "title": "Practical Guide on SOGIESC - Reception",
+      "category": "Vulnerable Groups",
+      "date": "11/2024",
+      "url": "https://euaa.europa.eu/publications/practical-guide-SOGIESC-reception",
+      "description": "Guidance on reception conditions for applicants with diverse SOGIESC.",
+      "keywords": [
+        "SOGIESC",
+        "reception",
+        "LGBTQI",
+        "accommodation"
+      ]
+    },
+    {
+      "title": "Country Guidance: Syria",
+      "category": "Country Guidance",
+      "date": "12/2025",
+      "url": "https://www.euaa.europa.eu/country-guidance-syria",
+      "description": "Member States' joint assessment of situation in Syria following fall of Assad regime.",
+      "keywords": [
+        "Syria",
+        "COI",
+        "country guidance",
+        "Assad"
+      ]
+    },
+    {
+      "title": "Country Guidance: Iran",
+      "category": "Country Guidance",
+      "date": "01/2025",
+      "url": "https://www.euaa.europa.eu/country-guidance-iran",
+      "description": "Latest update of Country Guidance on Iran with common analysis and guidance.",
+      "keywords": [
+        "Iran",
+        "COI",
+        "country guidance",
+        "persecution"
+      ]
+    },
+    {
+      "title": "Country Guidance: Explained",
+      "category": "Country Guidance",
+      "date": "02/2025",
+      "url": "https://www.euaa.europa.eu/country-guidance-explained-0",
+      "description": "General guidance and methodological framework for EUAA country guidance documents.",
+      "keywords": [
+        "methodology",
+        "COI",
+        "country guidance",
+        "framework"
+      ]
+    },
+    {
+      "title": "Self-Assessment Tool on Quality of the Asylum Procedure",
+      "category": "Quality Assurance",
+      "date": "08/2025",
+      "url": "https://reliefweb.int/report/world/self-assessment-tool-quality-asylum-procedure-august-2025",
+      "description": "IT solution facilitating efficient self-assessment of quality of asylum procedures.",
+      "keywords": [
+        "self-assessment",
+        "quality",
+        "monitoring",
+        "tool"
+      ]
+    },
+    {
+      "title": "Asylum Report 2025",
+      "category": "Statistics & Reports",
+      "date": "2025",
+      "url": "https://www.euaa.europa.eu/publications/asylum-report-2025",
+      "description": "Overview of key developments in asylum in 2024, summarising changes to policies, practice and laws.",
+      "keywords": [
+        "statistics",
+        "report",
+        "trends",
+        "data"
+      ]
+    }
+  ],
+  "regulations": [
+    {
+      "id": "reg_screening",
+      "title": "Screening Regulation",
+      "number": "2024/1356",
+      "adopted": "14 May 2024",
+      "eur_lex_url": "https://eur-lex.europa.eu/eli/reg/2024/1356/oj/eng",
+      "description": "Screening of third-country nationals at external borders",
+      "keywords": [
+        "screening",
+        "border",
+        "security check",
+        "biometric",
+        "health check"
+      ]
+    },
+    {
+      "id": "reg_procedure",
+      "title": "Asylum Procedure Regulation",
+      "number": "2024/1348",
+      "adopted": "14 May 2024",
+      "eur_lex_url": "https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:32024R1348",
+      "description": "Common procedure for international protection",
+      "keywords": [
+        "procedure",
+        "interview",
+        "decision",
+        "admissibility",
+        "border procedure"
+      ]
+    },
+    {
+      "id": "reg_eurodac",
+      "title": "Eurodac Regulation",
+      "number": "2024/1358",
+      "adopted": "14 May 2024",
+      "eur_lex_url": "https://eur-lex.europa.eu/legal-content/EN/TXT/PDF/?uri=OJ:L_202401358",
+      "description": "Biometric data comparison system",
+      "keywords": [
+        "fingerprint",
+        "biometric",
+        "database",
+        "identification"
+      ]
+    },
+    {
+      "id": "reg_management",
+      "title": "Asylum & Migration Management Regulation",
+      "number": "2024/1351",
+      "adopted": "14 May 2024",
+      "eur_lex_url": "https://eur-lex.europa.eu/legal-content/EN/ALL/?uri=CELEX:32024R1351",
+      "description": "Solidarity mechanism and responsibility allocation",
+      "keywords": [
+        "solidarity",
+        "relocation",
+        "responsibility",
+        "Dublin"
+      ]
+    },
+    {
+      "id": "reg_qualification",
+      "title": "Qualification Regulation",
+      "number": "2024/1347",
+      "adopted": "14 May 2024",
+      "eur_lex_url": "https://eur-lex.europa.eu/legal-content/EN/TXT/PDF/?uri=OJ:L_202401347",
+      "description": "Standards for qualification as refugee or subsidiary protection",
+      "keywords": [
+        "refugee",
+        "subsidiary protection",
+        "persecution",
+        "serious harm"
+      ]
+    },
+    {
+      "id": "dir_reception",
+      "title": "Reception Conditions Directive",
+      "number": "2024/1346",
+      "adopted": "14 May 2024",
+      "eur_lex_url": "https://eur-lex.europa.eu/eli/dir/2024/1346/oj/eng",
+      "description": "Standards for reception of applicants",
+      "keywords": [
+        "reception",
+        "accommodation",
+        "material conditions",
+        "healthcare"
+      ]
+    },
+    {
+      "id": "reg_crisis",
+      "title": "Crisis Regulation",
+      "number": "2024/1359",
+      "adopted": "14 May 2024",
+      "eur_lex_url": "https://eur-lex.europa.eu/eli/reg/2024/1359/oj/eng",
+      "description": "Addressing situations of crisis and force majeure",
+      "keywords": [
+        "crisis",
+        "emergency",
+        "force majeure",
+        "instrumentalisation"
+      ]
+    }
+  ]
+}
