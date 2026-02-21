@@ -148,7 +148,7 @@
                 displayRegulations(database.regulations);
                 displayDefinitions(database.definitions);
                 displayGuidelines(database.euaa_guidelines);
-                displayCaseworkerIndex(database.caseworker_index);
+                displayCaseworkerIndex(database.caseworker_index.categories);
                 initializeAlphabetIndex();
                 initializeCategoryFilter();
             } catch (error) {
@@ -334,30 +334,30 @@
             clearBtn.style.display = query ? 'block' : 'none';
             
             if (!query) { 
-                displayCaseworkerIndex(database.caseworker_index); 
+                displayCaseworkerIndex(database.caseworker_index.categories); 
                 statsEl.textContent = '';
                 return; 
             }
             
             console.log('Searching for:', query);
             
-            const filtered = {};
+            const filtered = [];
             let totalMatches = 0;
             
-            for (const [key, cat] of Object.entries(database.caseworker_index)) {
-                const matchingSections = cat.sections.filter(sec => {
-                    const searchText = `${sec.name} ${sec.items.join(' ')} ${sec.keywords.join(' ')}`.toLowerCase();
+            for (const cat of database.caseworker_index.categories) {
+                const matchingSubsections = cat.subsections.filter(subsec => {
+                    const searchText = `${subsec.name} ${subsec.items.join(' ')} ${subsec.keywords.join(' ')}`.toLowerCase();
                     return searchText.includes(query);
                 });
                 
-                if (matchingSections.length > 0) {
-                    filtered[key] = {...cat, sections: matchingSections};
-                    totalMatches += matchingSections.length;
+                if (matchingSubsections.length > 0) {
+                    filtered.push({...cat, subsections: matchingSubsections});
+                    totalMatches += matchingSubsections.length;
                 }
             }
             
             console.log('Found matches:', totalMatches);
-            statsEl.textContent = `Found ${totalMatches} section(s) matching "${query}"`;
+            statsEl.textContent = `Found ${totalMatches} subsection(s) matching "${query}"`;
             displayCaseworkerIndex(filtered, query);
         }
 
@@ -365,23 +365,23 @@
             document.getElementById('indexSearchInput').value = '';
             document.getElementById('indexClearBtn').style.display = 'none';
             document.getElementById('indexSearchStats').textContent = '';
-            displayCaseworkerIndex(database.caseworker_index);
+            displayCaseworkerIndex(database.caseworker_index.categories);
         }
 
-        function displayCaseworkerIndex(index, highlight = null) {
+        function displayCaseworkerIndex(categories, highlight = null) {
             const container = document.getElementById('caseworkerResults');
             
-            if (!index || Object.keys(index).length === 0) {
+            if (!categories || categories.length === 0) {
                 container.innerHTML = '<div class="no-results"><h3>😔 No results</h3><p>Try different keywords like: credibility, detention, vulnerability, interview, etc.</p></div>';
                 return;
             }
             
-            container.innerHTML = Object.entries(index).map(([key, cat]) => `
+            container.innerHTML = categories.map(cat => `
                 <div class="index-section">
-                    <h3>${cat.title}</h3>
-                    <div class="meta">${cat.subtitle}</div>
-                    ${cat.sections.map(sec => {
-                        let name = sec.name;
+                    <h3>${cat.name}</h3>
+                    <div class="meta">${cat.regulation}</div>
+                    ${cat.subsections.map(subsec => {
+                        let name = subsec.name;
                         if (highlight) {
                             const regex = new RegExp(`(${escapeRegex(highlight)})`, 'gi');
                             name = name.replace(regex, '<span class="highlight">$1</span>');
@@ -389,9 +389,8 @@
                         return `
                             <div class="subsection">
                                 <h4>${name}</h4>
-                                <span class="badge">${sec.regulation}</span>
                                 <ul>
-                                    ${sec.items.map(item => {
+                                    ${subsec.items.map(item => {
                                         let displayItem = item;
                                         if (highlight) {
                                             const regex = new RegExp(`(${escapeRegex(highlight)})`, 'gi');
@@ -401,7 +400,7 @@
                                     }).join('')}
                                 </ul>
                                 <div style="margin-top:10px;">
-                                    ${sec.keywords.map(k => `<span class="keyword-tag">${k}</span>`).join('')}
+                                    ${subsec.keywords.map(k => `<span class="keyword-tag">${k}</span>`).join('')}
                                 </div>
                             </div>
                         `;
@@ -409,6 +408,7 @@
                 </div>
             `).join('');
         }
+
 
         window.addEventListener('DOMContentLoaded', loadDatabase);
     </script>
