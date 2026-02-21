@@ -1107,5 +1107,612 @@
         "instrumentalisation"
       ]
     }
-  ]
+  ],
+  "caseworker_index": {
+    "screening": {
+      "title": "1️⃣ Screening Regulation",
+      "subtitle": "Pre-entry phase – before formal asylum procedure",
+      "sections": [
+        {
+          "name": "A. Triggering Screening",
+          "items": [
+            "Irregular entry apprehension",
+            "Disembarkation after SAR",
+            "Application made at external border",
+            "Persons not fulfilling entry conditions",
+            "Transfer from another Member State"
+          ],
+          "regulation": "2024/1356",
+          "keywords": [
+            "screening",
+            "border",
+            "entry",
+            "SAR",
+            "irregular"
+          ]
+        },
+        {
+          "name": "B. Identity & Security",
+          "items": [
+            "Identity establishment",
+            "Document verification",
+            "Biometric capture",
+            "Security database checks",
+            "National security flagging",
+            "Multiple identity indicators"
+          ],
+          "regulation": "2024/1356",
+          "keywords": [
+            "identity",
+            "biometric",
+            "security",
+            "database",
+            "eurodac"
+          ]
+        },
+        {
+          "name": "C. Vulnerability & Safeguards",
+          "items": [
+            "Vulnerability assessment tool",
+            "Indicators of trafficking",
+            "Medical screening",
+            "Age assessment referral",
+            "Best interests of the child assessment",
+            "Guardianship referral"
+          ],
+          "regulation": "2024/1356",
+          "keywords": [
+            "vulnerability",
+            "trafficking",
+            "medical",
+            "age",
+            "child",
+            "guardian"
+          ]
+        },
+        {
+          "name": "D. Outcome of Screening",
+          "items": [
+            "Referral to border asylum procedure",
+            "Referral to regular asylum procedure",
+            "Referral to return procedure",
+            "Security referral to national authorities",
+            "Screening report drafting",
+            "Data upload to Eurodac"
+          ],
+          "regulation": "2024/1356",
+          "keywords": [
+            "outcome",
+            "referral",
+            "border procedure",
+            "return",
+            "report"
+          ]
+        }
+      ]
+    },
+    "asylum_procedure": {
+      "title": "2️⃣ Asylum Procedure Regulation (APR)",
+      "subtitle": "Determination phase – substantive examination",
+      "sections": [
+        {
+          "name": "A. Access to Procedure",
+          "items": [
+            "Lodging vs registering application",
+            "Right to remain",
+            "Re-applications",
+            "Subsequent application admissibility"
+          ],
+          "regulation": "2024/1348",
+          "keywords": [
+            "access",
+            "lodging",
+            "registration",
+            "right to remain",
+            "subsequent"
+          ]
+        },
+        {
+          "name": "B. Procedural Tracks",
+          "items": [
+            "Border procedure",
+            "Accelerated procedure",
+            "Regular procedure",
+            "Inadmissibility procedure",
+            "Safe country of origin",
+            "Safe third country",
+            "First country of asylum"
+          ],
+          "regulation": "2024/1348",
+          "keywords": [
+            "border procedure",
+            "accelerated",
+            "inadmissible",
+            "safe country"
+          ]
+        },
+        {
+          "name": "C. Examination of the Claim",
+          "items": [
+            "Burden of proof",
+            "Standard of proof",
+            "Credibility assessment",
+            "Benefit of the doubt",
+            "Internal protection alternative (IPA)",
+            "Exclusion analysis",
+            "Nexus assessment (Convention ground)"
+          ],
+          "regulation": "2024/1348",
+          "keywords": [
+            "examination",
+            "proof",
+            "credibility",
+            "exclusion",
+            "nexus",
+            "IPA"
+          ]
+        },
+        {
+          "name": "D. Interview & Guarantees",
+          "items": [
+            "Personal interview requirements",
+            "Interpreter standards",
+            "Legal assistance",
+            "Free legal aid eligibility",
+            "Recording of interview",
+            "Applicant's right to comment"
+          ],
+          "regulation": "2024/1348",
+          "keywords": [
+            "interview",
+            "interpreter",
+            "legal aid",
+            "recording",
+            "guarantees"
+          ]
+        },
+        {
+          "name": "E. Time Limits",
+          "items": [
+            "Border procedure deadlines",
+            "Accelerated procedure deadlines",
+            "Maximum duration of examination",
+            "Appeal deadlines",
+            "Suspensive effect conditions"
+          ],
+          "regulation": "2024/1348",
+          "keywords": [
+            "deadline",
+            "time limit",
+            "appeal",
+            "suspensive effect"
+          ]
+        },
+        {
+          "name": "F. Vulnerable Applicants",
+          "items": [
+            "Unaccompanied minors",
+            "Applicants with special procedural needs",
+            "Survivors of torture",
+            "Medical reports consideration",
+            "Gender-sensitive assessment"
+          ],
+          "regulation": "2024/1348",
+          "keywords": [
+            "vulnerable",
+            "unaccompanied minor",
+            "torture",
+            "gender",
+            "special needs"
+          ]
+        }
+      ]
+    },
+    "eurodac": {
+      "title": "3️⃣ Eurodac Regulation (Recast)",
+      "subtitle": "Biometric and responsibility support tool",
+      "sections": [
+        {
+          "name": "A. Data Categories",
+          "items": [
+            "Category 1 applicants",
+            "Category 2 irregular border crossers",
+            "Category 3 irregular stay",
+            "Facial image storage",
+            "Age threshold (6 years)"
+          ],
+          "regulation": "2024/1358",
+          "keywords": [
+            "eurodac",
+            "category",
+            "biometric",
+            "facial image",
+            "data"
+          ]
+        },
+        {
+          "name": "B. Responsibility Support",
+          "items": [
+            "Hit management",
+            "Dublin/AMMR evidence use",
+            "Secondary movement tracing",
+            "Data comparison workflow"
+          ],
+          "regulation": "2024/1358",
+          "keywords": [
+            "responsibility",
+            "hit",
+            "dublin",
+            "secondary movement"
+          ]
+        },
+        {
+          "name": "C. Law Enforcement Interface",
+          "items": [
+            "Europol access",
+            "Serious crime queries",
+            "National police access conditions"
+          ],
+          "regulation": "2024/1358",
+          "keywords": [
+            "law enforcement",
+            "europol",
+            "police",
+            "crime"
+          ]
+        },
+        {
+          "name": "D. Data Protection",
+          "items": [
+            "Retention periods",
+            "Data correction request",
+            "Erasure procedure",
+            "Supervisory authority oversight",
+            "Access logging"
+          ],
+          "regulation": "2024/1358",
+          "keywords": [
+            "data protection",
+            "GDPR",
+            "retention",
+            "erasure",
+            "privacy"
+          ]
+        }
+      ]
+    },
+    "ammr": {
+      "title": "4️⃣ Asylum and Migration Management Regulation (AMMR)",
+      "subtitle": "Responsibility & solidarity system – replaces Dublin III",
+      "sections": [
+        {
+          "name": "A. Responsibility Criteria Hierarchy",
+          "items": [
+            "Family unity (minor child priority)",
+            "Sibling responsibility",
+            "Residence permit holder responsibility",
+            "Visa issuing responsibility",
+            "Irregular entry responsibility",
+            "Irregular stay responsibility",
+            "Dependency clause"
+          ],
+          "regulation": "2024/1351",
+          "keywords": [
+            "responsibility",
+            "dublin",
+            "family unity",
+            "criteria",
+            "hierarchy"
+          ]
+        },
+        {
+          "name": "B. Procedural Steps",
+          "items": [
+            "Take charge request",
+            "Take back request",
+            "Reply deadlines",
+            "Tacit acceptance",
+            "Transfer notification",
+            "Transfer execution",
+            "Responsibility cessation"
+          ],
+          "regulation": "2024/1351",
+          "keywords": [
+            "take charge",
+            "take back",
+            "transfer",
+            "dublin procedure"
+          ]
+        },
+        {
+          "name": "C. Solidarity Mechanism",
+          "items": [
+            "Relocation contributions",
+            "Financial contributions",
+            "Return sponsorship",
+            "Solidarity pool activation",
+            "Allocation key calculation"
+          ],
+          "regulation": "2024/1351",
+          "keywords": [
+            "solidarity",
+            "relocation",
+            "return sponsorship",
+            "allocation"
+          ]
+        },
+        {
+          "name": "D. Pressure Situations",
+          "items": [
+            "Disproportionate pressure assessment",
+            "Commission activation role",
+            "Temporary solidarity increase"
+          ],
+          "regulation": "2024/1351",
+          "keywords": [
+            "pressure",
+            "crisis",
+            "migratory pressure",
+            "solidarity"
+          ]
+        }
+      ]
+    },
+    "qualification": {
+      "title": "5️⃣ Qualification Regulation",
+      "subtitle": "Substantive protection standards",
+      "sections": [
+        {
+          "name": "A. Refugee Status Analysis",
+          "items": [
+            "Well-founded fear",
+            "Future risk assessment",
+            "Past persecution",
+            "Convention grounds (race, religion, nationality, political opinion, PSG)",
+            "Actors of persecution",
+            "Actors of protection",
+            "Internal protection alternative"
+          ],
+          "regulation": "2024/1347",
+          "keywords": [
+            "refugee",
+            "persecution",
+            "well-founded fear",
+            "convention",
+            "PSG"
+          ]
+        },
+        {
+          "name": "B. Subsidiary Protection",
+          "items": [
+            "Death penalty risk",
+            "Torture or inhuman treatment risk",
+            "Serious and individual threat (indiscriminate violence)",
+            "Armed conflict assessment"
+          ],
+          "regulation": "2024/1347",
+          "keywords": [
+            "subsidiary protection",
+            "torture",
+            "death penalty",
+            "armed conflict"
+          ]
+        },
+        {
+          "name": "C. Exclusion Clauses",
+          "items": [
+            "Serious crime exclusion",
+            "War crimes",
+            "Crimes against humanity",
+            "Acts contrary to UN principles",
+            "Security threat analysis"
+          ],
+          "regulation": "2024/1347",
+          "keywords": [
+            "exclusion",
+            "war crime",
+            "security threat",
+            "serious crime"
+          ]
+        },
+        {
+          "name": "D. Cessation & Revocation",
+          "items": [
+            "Change of circumstances",
+            "Voluntary re-availment",
+            "Fraud or misrepresentation",
+            "Security grounds withdrawal"
+          ],
+          "regulation": "2024/1347",
+          "keywords": [
+            "cessation",
+            "revocation",
+            "withdrawal",
+            "change of circumstances"
+          ]
+        },
+        {
+          "name": "E. Rights Attached to Status",
+          "items": [
+            "Residence permit duration",
+            "Travel document issuance",
+            "Access to employment",
+            "Social assistance",
+            "Education access",
+            "Integration support"
+          ],
+          "regulation": "2024/1347",
+          "keywords": [
+            "rights",
+            "residence permit",
+            "employment",
+            "integration",
+            "travel document"
+          ]
+        }
+      ]
+    },
+    "reception": {
+      "title": "6️⃣ Reception Conditions Directive (Recast)",
+      "subtitle": "Material conditions and safeguards",
+      "sections": [
+        {
+          "name": "A. Material Reception Conditions",
+          "items": [
+            "Housing standards",
+            "Financial allowance calculation",
+            "In-kind vs cash support",
+            "Reduction/withdrawal grounds"
+          ],
+          "regulation": "2024/1346",
+          "keywords": [
+            "reception",
+            "housing",
+            "allowance",
+            "material conditions"
+          ]
+        },
+        {
+          "name": "B. Detention",
+          "items": [
+            "Detention grounds",
+            "Proportionality test",
+            "Alternatives to detention",
+            "Judicial review",
+            "Detention of minors limitations"
+          ],
+          "regulation": "2024/1346",
+          "keywords": [
+            "detention",
+            "alternatives",
+            "proportionality",
+            "judicial review",
+            "minors"
+          ]
+        },
+        {
+          "name": "C. Labour Market Access",
+          "items": [
+            "Access timeline",
+            "Restrictions",
+            "Vocational training",
+            "Recognition of qualifications"
+          ],
+          "regulation": "2024/1346",
+          "keywords": [
+            "employment",
+            "labour market",
+            "work permit",
+            "vocational training"
+          ]
+        },
+        {
+          "name": "D. Special Reception Needs",
+          "items": [
+            "Minors",
+            "Unaccompanied minors",
+            "Victims of trafficking",
+            "Gender-based violence survivors",
+            "Mental health needs"
+          ],
+          "regulation": "2024/1346",
+          "keywords": [
+            "special needs",
+            "vulnerable",
+            "trafficking",
+            "GBV",
+            "mental health"
+          ]
+        }
+      ]
+    },
+    "crisis": {
+      "title": "7️⃣ Crisis and Force Majeure Regulation",
+      "subtitle": "Emergency measures and derogations",
+      "sections": [
+        {
+          "name": "A. Activation Grounds",
+          "items": [
+            "Mass influx",
+            "Instrumentalisation of migrants",
+            "Force majeure"
+          ],
+          "regulation": "2024/1359",
+          "keywords": [
+            "crisis",
+            "mass influx",
+            "instrumentalisation",
+            "force majeure"
+          ]
+        },
+        {
+          "name": "B. Procedural Derogations",
+          "items": [
+            "Extended border procedure",
+            "Modified deadlines",
+            "Temporary safeguards adjustment"
+          ],
+          "regulation": "2024/1359",
+          "keywords": [
+            "derogation",
+            "border procedure",
+            "deadline",
+            "emergency"
+          ]
+        },
+        {
+          "name": "C. Solidarity in Crisis",
+          "items": [
+            "Mandatory relocation quotas",
+            "Enhanced financial contributions",
+            "Rapid reaction mechanism"
+          ],
+          "regulation": "2024/1359",
+          "keywords": [
+            "solidarity",
+            "relocation",
+            "quota",
+            "rapid reaction"
+          ]
+        }
+      ]
+    },
+    "cross_cutting": {
+      "title": "🔁 Cross-Instrument Operational Themes",
+      "subtitle": "Horizontal themes for legal reasoning",
+      "sections": [
+        {
+          "name": "Legal Analysis Tools",
+          "items": [
+            "Non-refoulement assessment",
+            "Best interests of the child",
+            "Age assessment standards",
+            "Vulnerability identification",
+            "Detention proportionality",
+            "Secondary movement handling",
+            "Border vs regular procedure distinction",
+            "Security risk analysis",
+            "Evidence hierarchy",
+            "Country of Origin Information (COI) usage",
+            "Standard of proof harmonisation",
+            "Appeal suspensive effect",
+            "Interaction with return procedure",
+            "EUAA operational support",
+            "Fundamental rights monitoring mechanism"
+          ],
+          "regulation": "Multiple",
+          "keywords": [
+            "non-refoulement",
+            "best interests",
+            "age assessment",
+            "vulnerability",
+            "COI",
+            "evidence",
+            "suspensive effect",
+            "fundamental rights"
+          ]
+        }
+      ]
+    }
+  }
 }
