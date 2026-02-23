@@ -609,7 +609,7 @@
                                     ${subsec.items.map(item => {
                                         let displayItem = item;
 
-                                        // Split article format: "Art X: Title (Detail)" -> bold pink title + normal black detail
+                                        // Split article format for Art items only
                                         if (item.startsWith('Art ')) {
                                             const colonIndex = item.indexOf(':');
                                             if (colonIndex !== -1) {
@@ -639,14 +639,14 @@
                                                 displayItem = '<span class="article-number-title">' + item + '</span>';
                                             }
                                         }
-                                            const regex = new RegExp(`(${escapeRegex(highlight)})`, 'gi');
+                                        
+                                        // Apply search highlighting
                                         if (highlight) {
                                             const regex = new RegExp('(' + highlight + ')', 'gi');
                                             displayItem = displayItem.replace(regex, '<span class="highlight">$1</span>');
                                         }
-                                        }
                                         
-                                        // Extract article number and create link
+                                        // Extract article number and create EUR-Lex link
                                         const artMatch = item.match(/Art(?:icle)?\s+(\d+(?:-\d+)?(?:\(\d+\))?)/i);
                                         if (artMatch && cat.url) {
                                             const artNum = artMatch[1];
@@ -654,8 +654,7 @@
                                             displayItem = '<a href="' + artLink + '" target="_blank" class="article-link" title="Open Article ' + artNum + ' in EUR-Lex">📖</a> ' + displayItem;
                                         }
                                         
-                                        const itemClass = item.startsWith('Art ') ? ' class="article-item"' : '';
-                                        return '<li' + itemClass + '>' + displayItem + '</li>';
+                                        return '<li>' + displayItem + '</li>';
                                     }).join('')}
                                 </ul>
                                 ${subsec.related_guidelines && subsec.related_guidelines.length > 0 ? `
