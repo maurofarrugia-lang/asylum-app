@@ -135,44 +135,138 @@
             color: #0d47a1;
         }
     
-        /* Article titles only - bold pink */
+        /* Article styling - number and title bold pink, rest normal */
         #caseworkerResults li.article-item {
+            color: #000000;
+            font-weight: normal;
+        }
+        
+        #caseworkerResults li.article-item .article-number-title {
             color: #e91e63;
             font-weight: bold;
         }
     
-        /* Jumping Spider */
+        /* Jumping Spider & Mouse */
         .spider {
             position: fixed;
             bottom: 20px;
-            right: 20px;
             font-size: 48px;
             cursor: pointer;
-            animation: spider-jump 3s ease-in-out infinite;
+            animation: spider-crawl 10s linear infinite;
             z-index: 1000;
             transition: transform 0.3s ease;
         }
         
         .spider:hover {
             transform: scale(1.5) rotate(10deg);
-            animation: none;
+            animation-play-state: paused;
         }
         
-        @keyframes spider-jump {
-            0%, 100% {
-                transform: translateY(0) rotate(0deg);
+        .mouse {
+            position: fixed;
+            bottom: 25px;
+            font-size: 32px;
+            cursor: pointer;
+            animation: mouse-run 8s linear infinite;
+            z-index: 999;
+            transition: transform 0.3s ease;
+        }
+        
+        .mouse:hover {
+            transform: scale(1.5);
+            animation-play-state: paused;
+        }
+        
+        @keyframes spider-crawl {
+            0% {
+                left: -60px;
+                transform: translateY(0) scaleX(1);
             }
-            25% {
-                transform: translateY(-20px) rotate(-5deg);
+            48% {
+                transform: translateY(0) scaleX(1);
             }
             50% {
-                transform: translateY(0) rotate(0deg);
+                left: 50%;
+                transform: translateY(-15px) scaleX(1);
             }
-            75% {
-                transform: translateY(-10px) rotate(5deg);
+            52% {
+                transform: translateY(0) scaleX(-1);
+            }
+            100% {
+                left: calc(100% + 60px);
+                transform: translateY(0) scaleX(-1);
             }
         }
-</style>
+        
+        @keyframes mouse-run {
+            0% {
+                left: -50px;
+                transform: scaleX(1);
+            }
+            45% {
+                transform: scaleX(1);
+            }
+            50% {
+                left: 45%;
+                transform: scaleX(-1);
+            }
+            100% {
+                left: calc(100% + 50px);
+                transform: scaleX(-1);
+            }
+        }
+
+    /* Spider horizontal crawl animation */
+    .spider-mascot {
+        position: fixed;
+        bottom: 20px;
+        width: 60px;
+        height: 60px;
+        font-size: 60px;
+        z-index: 1000;
+        cursor: pointer;
+        animation: crawl 10s linear infinite;
+        transition: transform 0.3s;
+    }
+    .spider-mascot:hover {
+        transform: scale(1.2) rotate(15deg) !important;
+    }
+    @keyframes crawl {
+        0% { left: -80px; transform: scaleX(1); }
+        49% { transform: scaleX(1); }
+        50% { left: 50%; transform: scaleX(-1); }
+        99% { transform: scaleX(-1); }
+        100% { left: calc(100% + 80px); transform: scaleX(1); }
+    }
+    
+    /* Mouse horizontal scurry animation */
+    .mouse-mascot {
+        position: fixed;
+        bottom: 20px;
+        width: 40px;
+        height: 40px;
+        font-size: 40px;
+        z-index: 999;
+        animation: scurry 8s linear infinite;
+    }
+    @keyframes scurry {
+        0% { left: -60px; transform: scaleX(1); }
+        49% { transform: scaleX(1); }
+        50% { left: 50%; transform: scaleX(-1); }
+        99% { transform: scaleX(-1); }
+        100% { left: calc(100% + 60px); transform: scaleX(1); }
+    }
+    
+    /* Article styling: Number+Title bold pink, Details normal black */
+    #caseworkerResults li .article-number-title {
+        color: #e91e63;
+        font-weight: bold;
+    }
+    #caseworkerResults li .article-detail {
+        color: #000;
+        font-weight: normal;
+    }
+    </style>
 </head>
 <body>
     <div class="container">
@@ -514,9 +608,30 @@
                                 <ul>
                                     ${subsec.items.map(item => {
                                         let displayItem = item;
-                                        if (highlight) {
+
+                                        // Split article format: "Art X: Title (Detail)" -> bold pink title + normal black detail
+                                        if (item.startsWith('Art ')) {
+                                            const colonIndex = item.indexOf(':');
+                                            if (colonIndex !== -1) {
+                                                const rest = item.substring(colonIndex + 1).trim();
+                                                const openParen = rest.indexOf('(');
+                                                if (openParen !== -1) {
+                                                    const closeParen = rest.lastIndexOf(')');
+                                                    const numberTitle = item.substring(0, colonIndex + 1) + ' ' + rest.substring(0, openParen).trim();
+                                                    const detail = rest.substring(openParen + 1, closeParen).trim();
+                                                    displayItem = '<span class="article-number-title">' + numberTitle + '</span> <span class="article-detail">' + detail + '</span>';
+                                                } else {
+                                                    displayItem = '<span class="article-number-title">' + item + '</span>';
+                                                }
+                                            } else {
+                                                displayItem = '<span class="article-number-title">' + item + '</span>';
+                                            }
+                                        }
                                             const regex = new RegExp(`(${escapeRegex(highlight)})`, 'gi');
-                                            displayItem = item.replace(regex, '<span class="highlight">$1</span>');
+                                        if (highlight) {
+                                            const regex = new RegExp('(' + highlight + ')', 'gi');
+                                            displayItem = displayItem.replace(regex, '<span class="highlight">$1</span>');
+                                        }
                                         }
                                         
                                         // Extract article number and create link
@@ -556,7 +671,14 @@
         window.addEventListener('DOMContentLoaded', loadDatabase);
     </script>
 
-    <!-- Jumping Spider Easter Egg -->
+    <!-- Jumping Spider & Mouse Easter Egg -->
     <div class="spider" title="Jumping Spider 🕷️">🕷️</div>
+    <div class="mouse" title="Mouse 🐭">🐭</div>
+
+    <!-- Spider mascot -->
+    <div class="spider-mascot" title="Jumping Spider - Your Guide Companion! 🕷️">🕷️</div>
+    
+    <!-- Mouse mascot -->
+    <div class="mouse-mascot" title="Mouse running from spider! 🐭">🐭</div>
 </body>
 </html>
