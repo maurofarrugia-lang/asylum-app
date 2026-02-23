@@ -135,15 +135,10 @@
             color: #0d47a1;
         }
     
-        /* Hybrid article title styling */
-        .article-official-title {
-            color: #000000;
-            font-weight: bold;
-        }
-        
-        .article-practical-summary {
+        /* Simple article styling - all bold pink */
+        #caseworkerResults li {
             color: #e91e63;
-            font-weight: normal;
+            font-weight: bold;
         }
     </style>
 </head>
@@ -460,41 +455,6 @@
 
         
         // Format hybrid article titles with styled components
-        function formatHybridArticle(item, highlightText) {
-            // Match pattern: "Art X: Official Title (practical summary)"
-            // Handle nested parentheses by finding the last (
-            const match = item.match(/^(Art \d+(?:[-‑]\d+)?(?:\([a-z]+\))?(?:&\d+)?): (.+)$/);
-            
-            if (match) {
-                const artNumber = match[1];
-                const restOfText = match[2].trim();
-                
-                // Find the last opening parenthesis to split official title and summary
-                const lastOpenParen = restOfText.lastIndexOf('(');
-                
-                if (lastOpenParen > 0 && restOfText.endsWith(')')) {
-                    const officialTitle = restOfText.substring(0, lastOpenParen).trim();
-                    const practicalSummary = restOfText.substring(lastOpenParen + 1, restOfText.length - 1).trim();
-                    
-                    // Apply highlighting if needed
-                    let displayArt = artNumber;
-                    let displayOfficial = officialTitle;
-                    let displayPractical = practicalSummary;
-                    
-                    if (highlightText) {
-                        displayArt = highlight(artNumber, highlightText);
-                        displayOfficial = highlight(officialTitle, highlightText);
-                        displayPractical = highlight(practicalSummary, highlightText);
-                    }
-                    
-                    return `${displayArt}: <span class="article-official-title">${displayOfficial}</span> <span class="article-practical-summary">(${displayPractical})</span>`;
-                }
-            }
-            
-            // Fallback for non-hybrid format
-            return highlightText ? highlight(item, highlightText) : item;
-        }
-
         function displayCaseworkerIndex(categories, highlight = null) {
             const container = document.getElementById('caseworkerResults');
             
