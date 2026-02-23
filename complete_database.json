@@ -2074,10 +2074,79 @@
         "Credibility",
         "Detention"
       ],
-      "summary": "Placeholder PDF to test Case Law tab, EUAA link, theme search and filters.",
+      "summary": "Placeholder PDF to test Case Law tab, EUAA entry link, EUAA search button, and theme filtering.",
       "pdf": "case-law-pdfs/2024/SAMPLE_CaseLaw.pdf",
-      "euaa_url": "https://caselaw.euaa.europa.eu",
+      "euaa_url": "https://caselaw.euaa.europa.eu/Pages/search.aspx",
       "source_url": ""
+    }
+  ],
+  "euaa_case_law_publications": [
+    {
+      "id": "QOACL_2025_1",
+      "title": "Quarterly Overview of Asylum Case Law, Issue No 1/2025",
+      "issue": "1/2025",
+      "date": "17 March 2025",
+      "period": "Dec 2024 – Feb 2025",
+      "url": "https://www.euaa.europa.eu/publications/quarterly-overview-asylum-case-law-issue-no-12025",
+      "pdf_url": "https://www.euaa.europa.eu/sites/default/files/publications/2025-03/2025_EUAA_Quarterly_Overview_Asylum_Case_Law_Issue1_EN.pdf",
+      "themes": [
+        "Access to procedure",
+        "Dublin",
+        "First instance",
+        "Reception",
+        "Detention",
+        "Temporary protection",
+        "Return"
+      ],
+      "keywords": [
+        "asylum",
+        "international protection",
+        "case law",
+        "jurisprudence",
+        "courts"
+      ]
+    },
+    {
+      "id": "QOACL_2025_3",
+      "title": "Quarterly Overview of Asylum Case Law, Issue No 3/2025",
+      "issue": "3/2025",
+      "date": "September 2025",
+      "period": "(see PDF)",
+      "url": "https://www.euaa.europa.eu/sites/default/files/publications/2025-09/2025_EUAA_Quarterly_Overview_Asylum_Case_Law_Issue3_EN.pdf",
+      "pdf_url": "https://www.euaa.europa.eu/sites/default/files/publications/2025-09/2025_EUAA_Quarterly_Overview_Asylum_Case_Law_Issue3_EN.pdf",
+      "themes": [
+        "Access to procedure",
+        "Dublin",
+        "First instance",
+        "Country of origin",
+        "Vulnerability",
+        "Trafficking"
+      ],
+      "keywords": [
+        "case law",
+        "quarterly overview",
+        "EUAA"
+      ]
+    },
+    {
+      "id": "QOACL_2024_2",
+      "title": "Quarterly Overview of Asylum Case Law, Issue No 2/2024",
+      "issue": "2/2024",
+      "date": "June 2024",
+      "period": "(see PDF)",
+      "url": "https://www.euaa.europa.eu/sites/default/files/publications/2024-06/2024_EUAA_Quarterly_Overview_Asylum_Case_Law_Issue2_EN.pdf",
+      "pdf_url": "https://www.euaa.europa.eu/sites/default/files/publications/2024-06/2024_EUAA_Quarterly_Overview_Asylum_Case_Law_Issue2_EN.pdf",
+      "themes": [
+        "Collective expulsion",
+        "Dublin",
+        "Reception",
+        "Detention"
+      ],
+      "keywords": [
+        "case law",
+        "quarterly overview",
+        "EUAA"
+      ]
     }
   ]
 }

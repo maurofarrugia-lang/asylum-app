@@ -281,7 +281,7 @@
 .euaa-search-btn:hover { filter: brightness(0.95); }
 .case-law-filters {
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr;
   gap: 12px;
   margin-top: 15px;
 }
@@ -423,53 +423,41 @@
         
  <div id="case-law-tab" class="tab-content">
   <div class="stats-panel">
-   <div class="stat-card"><h3 id="case-law-count">0</h3><p>Case Law PDFs</p></div>
-   <div class="stat-card"><h3 id="case-law-themes">0</h3><p>Themes</p></div>
-   <div class="stat-card"><h3 id="case-law-years">—</h3><p>Years</p></div>
+    <div class="stat-card"><h3>EUAA</h3><p>Case Law Database</p></div>
+    <div class="stat-card"><h3>2020–2026</h3><p>Quarterly/Newsletter issues</p></div>
   </div>
 
   <div class="search-section">
-   <div class="search-box">
-    <input type="text" id="caseLawSearchInput" placeholder="🔍 Search case law by case name/number or themes…" oninput="searchCaseLaw()">
-    <button class="clear-btn" id="caseLawClearBtn" onclick="clearCaseLawSearch()">✕</button>
-   </div>
-   <div class="case-law-actions-row">
-    <button class="euaa-search-btn" onclick="openEUAAQuery()">🔎 Search on EUAA (query)</button>
-    <button class="euaa-search-btn" style="background:#1976d2;" onclick="openEUAAAdvancedSearch()">⚙️ EUAA Advanced Search</button>
-   </div>
-   <div class="case-law-filters">
-    <select id="caseLawCourtSelect" onchange="searchCaseLaw()"><option value="all">All Courts</option></select>
-    <select id="caseLawCountrySelect" onchange="searchCaseLaw()"><option value="all">All Countries</option></select>
-    <select id="caseLawYearSelect" onchange="searchCaseLaw()"><option value="all">All Years</option></select>
-    <select id="caseLawThemeSelect" onchange="searchCaseLaw()"><option value="all">All Themes</option></select>
-   </div>
-   <div class="theme-chips" id="caseLawThemeChips"></div>
-   <div class="meta" id="caseLawSearchStats" style="margin-top:10px;"></div>
+    <div class="search-box">
+      <input type="text" id="euaaQueryInput" placeholder="🔍 Search EUAA Case Law (opens EUAA results in a new tab)…">
+    </div>
+    <div class="case-law-actions-row">
+      <button class="euaa-search-btn" onclick="openEUAAQuery()">🔎 Search on EUAA (query)</button>
+      <button class="euaa-search-btn" style="background:#1976d2;" onclick="openEUAAAdvancedSearch()">⚙️ EUAA Advanced Search</button>
+    </div>
+    <div class="meta" style="margin-top:10px;">Local uploaded-file search removed (as requested). Use EUAA search + Quarterly Overviews below.</div>
   </div>
-
-  <div class="results" id="caseLawResults"></div>
 
   <hr style="margin:30px 0; border:none; border-top:1px solid #eee;" />
 
-  <h2 style="color:#0d47a1; margin-bottom:10px;">📰 EUAA Quarterly Overview of Asylum Case Law</h2>
+  <h2 style="color:#0d47a1; margin-bottom:10px;">📰 EUAA Quarterly Overview / Case Law Newsletter (2020–2026)</h2>
   <div class="search-section">
-   <div class="search-box">
-    <input type="text" id="pubSearchInput" placeholder="🔍 Search quarterly overviews by issue, keywords, or themes…" oninput="searchPublications()">
-    <button class="clear-btn" id="pubClearBtn" onclick="clearPublicationsSearch()">✕</button>
-   </div>
-   <div class="case-law-filters">
-    <select id="pubYearSelect" onchange="searchPublications()"><option value="all">All Years</option></select>
-    <select id="pubIssueSelect" onchange="searchPublications()"><option value="all">All Issues</option></select>
-    <select id="pubThemeSelect" onchange="searchPublications()"><option value="all">All Themes</option></select>
-    <select id="pubDummySelect" disabled><option>—</option></select>
-   </div>
-   <div class="theme-chips" id="pubThemeChips"></div>
-   <div class="meta" id="pubSearchStats" style="margin-top:10px;"></div>
+    <div class="search-box">
+      <input type="text" id="pubSearchInput" placeholder="🔍 Search issues by year, number, keywords, or themes…" oninput="searchPublications()">
+      <button class="clear-btn" id="pubClearBtn" onclick="clearPublicationsSearch()">✕</button>
+    </div>
+    <div class="case-law-filters">
+      <select id="pubYearSelect" onchange="searchPublications()"><option value="all">All Years</option></select>
+      <select id="pubIssueSelect" onchange="searchPublications()"><option value="all">All Issues</option></select>
+      <select id="pubThemeSelect" onchange="searchPublications()"><option value="all">All Themes</option></select>
+    </div>
+    <div class="theme-chips" id="pubThemeChips"></div>
+    <div class="meta" id="pubSearchStats" style="margin-top:10px;"></div>
   </div>
   <div class="results" id="pubResults"></div>
- </div>
+</div>
 
- <div id="caseworker-tab" class="tab-content">
+<div id="caseworker-tab" class="tab-content">
             <div class="stats-panel">
                 <div class="stat-card"><h3>164</h3><p>Search Items</p></div>
                 <div class="stat-card"><h3>8</h3><p>Categories</p></div>
@@ -498,6 +486,7 @@
                 displayDefinitions(database.definitions);
                 displayGuidelines(database.euaa_guidelines);
                 displayCaseworkerIndex(database.caseworker_index.categories);
+            initializePublications(database.euaa_case_law_publications || []);
                 initializeAlphabetIndex();
                 initializeCategoryFilter();
             } catch (error) {
@@ -515,10 +504,10 @@
 
         // Escape special regex characters
         function escapeRegex(str) {
-            return str.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
-        }
+  return str.replace(/[.*+?^${}()|[\]\\]/g, '\$&');
+}
 
-        function performSearch() {
+function performSearch() {
             const query = document.getElementById('searchInput').value.toLowerCase();
             document.getElementById('clearBtn').style.display = query ? 'block' : 'none';
             if (!query) { displayRegulations(database.regulations); return; }
@@ -828,12 +817,11 @@ function openEUAAAdvancedSearch() {
 }
 
 function openEUAAQuery() {
-  const q = (document.getElementById('caseLawSearchInput').value || '').trim();
+  const q = (document.getElementById('euaaQueryInput').value || '').trim();
   if (!q) {
     window.open('https://caselaw.euaa.europa.eu/Pages/search.aspx', '_blank');
     return;
   }
-  // Keyword search results endpoint (example used by EUAA): /pages/searchresults.aspx?Keywords=...
   const url = 'https://caselaw.euaa.europa.eu/pages/searchresults.aspx?Keywords=' + encodeURIComponent(q);
   window.open(url, '_blank');
 }
