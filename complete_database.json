@@ -1118,12 +1118,12 @@
           {
             "name": "A. Scope & Application",
             "items": [
-              "Art 1-3: Scope and objectives of screening",
-              "Art 5: Persons subject to screening (irregular entry, SAR disembarkation, border applicants, non-fulfilment of entry conditions)",
-              "Art 6: Border screening procedures",
-              "Art 7: SAR (search and rescue) disembarkation screening",
-              "Art 8: Post-irregular entry screening",
-              "Art 9: Maximum 7-day screening duration"
+              "Art 1-3: Subject matter (Subject matter (Scope and objectives of screening))",
+              "Art 5: Screening at the external border (Screening at the external border (Persons subject to screening (irregular entry, SAR disembarkation, border applicants, non-fulfilment of entry conditions)))",
+              "Art 6: Authorisation to enter the territory of a Member State (Authorisation to enter the territory of a Member State (Border screening procedures))",
+              "Art 7: Screening within the territory (Screening within the territory (SAR (search and rescue) disembarkation screening))",
+              "Art 8: Requirements concerning the screening (Requirements concerning the screening (Post-irregular entry screening))",
+              "Art 9: Obligations of third-country nationals subjected to the screening (Obligations of third-country nationals subjected to the screening (Maximum 7-day screening duration))"
             ],
             "keywords": [
               "scope",
@@ -1143,9 +1143,9 @@
           {
             "name": "B. Identity & Security Checks",
             "items": [
-              "Art 10: Identity verification and document checks",
-              "Art 11: Security database checks (SIS, Interpol, national databases)",
-              "Art 14: Biometric data collection (fingerprints, facial image)"
+              "Art 10: Monitoring of fundamental rights (Monitoring of fundamental rights (Identity verification and document checks))",
+              "Art 11: Provision of information (Provision of information (Security database checks (SIS, Interpol, national databases)))",
+              "Art 14: Identification or verification of identity (Identification or verification of identity (Biometric data collection (fingerprints, facial image)))"
             ],
             "keywords": [
               "identity",
@@ -1160,9 +1160,9 @@
           {
             "name": "C. Health & Vulnerability",
             "items": [
-              "Art 12: Health screening and medical checks",
-              "Art 13: Vulnerability assessment (trafficking indicators, special needs)",
-              "Art 15: Child's best interests and safeguards",
+              "Art 12: Preliminary health checks and vulnerabilities (Preliminary health checks and vulnerabilities (Health screening and medical checks))",
+              "Art 13: Guarantees for minors (Guarantees for minors (Vulnerability assessment (trafficking indicators, special needs)))",
+              "Art 15: Security check (Security check (Child's best interests and safeguards))",
               "Age assessment referral procedures"
             ],
             "keywords": [
@@ -1188,10 +1188,10 @@
           {
             "name": "D. Information & Procedural Rights",
             "items": [
-              "Art 16: Information provision and access to assistance",
-              "Art 17: Screening report preparation and content",
-              "Art 18: Referral to appropriate procedure (asylum, return, security)",
-              "Art 25: Fundamental rights monitoring"
+              "Art 16: Arrangements for identification and security checks (Arrangements for identification and security checks (Information provision and access to assistance))",
+              "Art 17: Screening form (Screening form (Screening report preparation and content))",
+              "Art 18: Completion of the screening (Completion of the screening (Referral to appropriate procedure (asylum, return, security)))",
+              "Art 25: Final provisions (Final provisions (Fundamental rights monitoring))"
             ],
             "keywords": [
               "information",
@@ -1227,10 +1227,10 @@
           {
             "name": "A. Access to Procedure",
             "items": [
-              "Art 27-28: Making vs lodging an application",
-              "Art 29: Registration of applications",
-              "Art 10: Right to remain during examination",
-              "Art 53-55: Subsequent applications (admissibility, fresh elements)",
+              "Art 27-28: Registering applications for international protection (Making vs lodging an application)",
+              "Art 29: Documents provided to the applicant (Registration of applications)",
+              "Art 10: Right to remain during the administrative procedure (Right to remain during examination)",
+              "Art 53-55: Exceptions to the asylum border procedure (Subsequent applications (admissibility, fresh elements))",
               "Re-applications after withdrawal or rejection"
             ],
             "keywords": [
@@ -1251,13 +1251,13 @@
           {
             "name": "B. Procedural Tracks",
             "items": [
-              "Art 34: Regular procedure",
-              "Art 42: Accelerated procedure (grounds, time limits)",
-              "Art 43-44: Border procedure (scope, 12-week limit)",
-              "Art 36: Inadmissibility grounds",
-              "Art 61-64: Safe country of origin concept",
-              "Art 59: Safe third country",
-              "Art 58: First country of asylum"
+              "Art 34: Examination of applications (Regular procedure)",
+              "Art 42: Accelerated examination procedure (Accelerated procedure (grounds, time limits))",
+              "Art 43-44: Conditions for applying the asylum border procedure (Border procedure (scope, 12-week limit))",
+              "Art 36: Decisions on applications (Inadmissibility grounds)",
+              "Art 61-64: The concept of safe country of origin (Safe country of origin concept)",
+              "Art 59: The concept of safe third country (Safe third country)",
+              "Art 58: The concept of first country of asylum (First country of asylum)"
             ],
             "keywords": [
               "border procedure",
@@ -1277,9 +1277,9 @@
           {
             "name": "C. Examination of Claim",
             "items": [
-              "Art 31: Examination requirements and standards",
-              "Art 4: Burden and standard of proof (see also Qualification Reg Art 4)",
-              "Art 35: Assessment of facts and circumstances",
+              "Art 31: Applications on behalf of adults requiring assistance to exercise legal capacity (Examination requirements and standards)",
+              "Art 4: Competent authorities (Burden and standard of proof (see also Qualification Reg Art 4))",
+              "Art 35: Duration of the examination procedure (Assessment of facts and circumstances)",
               "Credibility assessment and benefit of doubt",
               "Internal protection alternative",
               "Exclusion grounds assessment",
@@ -1308,10 +1308,10 @@
           {
             "name": "D. Interview & Guarantees",
             "items": [
-              "Art 32-33: Personal interview (conduct, recording, exceptions)",
-              "Art 14: Interpretation and language assistance",
-              "Art 15-17: Legal assistance and representation",
-              "Art 16: Free legal aid eligibility",
+              "Art 32-33: Applications on behalf of accompanied minors (Personal interview (conduct, recording, exceptions))",
+              "Art 14: Report and recording of personal interviews (Interpretation and language assistance)",
+              "Art 15-17: Right to legal counselling and legal assistance and representation (Legal assistance and representation)",
+              "Art 16: Free legal counselling in the administrative procedure (Free legal aid eligibility)",
               "Comment right on interview report",
               "Recording of interviews"
             ],
@@ -1341,11 +1341,11 @@
           {
             "name": "E. Time Limits & Decisions",
             "items": [
-              "Art 40: Examination time limits (6 months general rule)",
-              "Art 44: Border procedure deadlines (12 weeks)",
-              "Art 42: Accelerated procedure deadlines (2 months)",
-              "Art 38: Explicit withdrawal",
-              "Art 39: Implicit withdrawal (failure to comply)",
+              "Art 40: Explicit withdrawal of applications (Examination time limits (6 months general rule))",
+              "Art 44: Decisions in the framework of the asylum border procedure (Border procedure deadlines (12 weeks))",
+              "Art 42: Accelerated examination procedure (Accelerated procedure deadlines (2 months))",
+              "Art 38: Decision on the admissibility of the application (Explicit withdrawal)",
+              "Art 39: Decision on the merits of an application (Implicit withdrawal (failure to comply))",
               "Decision notification requirements"
             ],
             "keywords": [
@@ -1392,8 +1392,8 @@
           {
             "name": "G. Appeals & Remedies",
             "items": [
-              "Art 67-68: Right to effective remedy and appeal",
-              "Art 68: Suspensive effect of appeals",
+              "Art 67-68: The right to an effective remedy (Right to effective remedy and appeal)",
+              "Art 68: Suspensive effect of appeal (Suspensive effect of appeals)",
               "Appeal time limits",
               "Judicial review standards",
               "Legal aid in appeal proceedings"
@@ -1423,10 +1423,10 @@
           {
             "name": "A. Data Categories & Collection",
             "items": [
-              "Art 14-18: Data categories (Cat 1 applicants, Cat 2 irregular border, Cat 3 irregular stay)",
-              "Art 15: Facial image collection requirements",
-              "Art 3: Age threshold (≥ 6 years)",
-              "Art 14: Biometric data quality standards",
+              "Art 14-18: Special provisions relating to minors (Data categories (Cat 1 applicants, Cat 2 irregular border, Cat 3 irregular stay))",
+              "Art 15: Collection and transmission of biometric data (Facial image collection requirements)",
+              "Art 3: System architecture and basic principles (Age threshold (≥ 6 years))",
+              "Art 14: Special provisions relating to minors (Biometric data quality standards)",
               "Multiple identity detection"
             ],
             "keywords": [
@@ -1450,10 +1450,10 @@
           {
             "name": "B. Responsibility Determination",
             "items": [
-              "Art 21: Biometric comparison and hit detection",
-              "Art 25: AMMR responsibility determination support",
-              "Art 26: Asylum authority access rights",
-              "Art 22: Hit notification procedures",
+              "Art 21: Recording of data (Biometric comparison and hit detection)",
+              "Art 25: Information on the status of relocation of the data subject (AMMR responsibility determination support)",
+              "Art 26: Collection and transmission of biometric data (Asylum authority access rights)",
+              "Art 22: Collection and transmission of biometric data (Hit notification procedures)",
               "Secondary movement tracing",
               "Dublin/AMMR evidence generation"
             ],
@@ -1475,9 +1475,9 @@
           {
             "name": "C. Law Enforcement Interface",
             "items": [
-              "Art 33: Europol access and queries",
-              "Art 32: National law enforcement authority access",
-              "Art 31: Serious crime conditions (terrorism, serious criminal offences)",
+              "Art 33: Conditions for access to Eurodac by designated authorities (Europol access and queries)",
+              "Art 32: Procedure for comparison of biometric or alphanumeric data with Eurodac data (National law enforcement authority access)",
+              "Art 31: Marking of data (Serious crime conditions (terrorism, serious criminal offences))",
               "Safeguards and proportionality"
             ],
             "keywords": [
@@ -1492,10 +1492,10 @@
           {
             "name": "D. Data Protection",
             "items": [
-              "Art 28: Retention periods (Cat 1: 3 years after status, Cat 2/3: 3 years)",
-              "Art 29: Correction and erasure rights",
-              "Art 37: Security of processing and technical safeguards",
-              "Art 40: EDPS supervision and oversight",
+              "Art 28: Comparison of facial image data (Retention periods (Cat 1: 3 years after status, Cat 2/3: 3 years))",
+              "Art 29: Data storage (Correction and erasure rights)",
+              "Art 37: Transmission (Security of processing and technical safeguards)",
+              "Art 40: Access to, and rectification or erasure of, data recorded in Eurodac (EDPS supervision and oversight)",
               "Access logs and audit trails"
             ],
             "keywords": [
@@ -1519,12 +1519,12 @@
           {
             "name": "A. Responsibility Criteria",
             "items": [
-              "Art 15-17: Family unity criteria (spouse, children, siblings)",
-              "Art 19: Residence documents and visas issued",
-              "Art 21: Irregular entry (first entry point)",
-              "Art 22: Irregular stay",
-              "Art 18: Dependency clause (humanitarian grounds)",
-              "Art 14: Hierarchy of criteria (chronological application)"
+              "Art 15-17: Provisions relating to personal interviews (Provisions relating to personal interviews (Family unity criteria (spouse, children, siblings)))",
+              "Art 19: Termination of the procedure (Termination of the procedure (Residence documents and visas issued))",
+              "Art 21: Determination of the Member State responsible (Determination of the Member State responsible (Irregular entry (first entry point)))",
+              "Art 22: Family members who are beneficiaries of international protection (Family members who are beneficiaries of international protection (Irregular stay))",
+              "Art 18: Information for applicants (Information for applicants (Dependency clause (humanitarian grounds)))",
+              "Art 14: Personal interview (Personal interview (Hierarchy of criteria (chronological application)))"
             ],
             "keywords": [
               "responsibility",
@@ -1544,12 +1544,12 @@
           {
             "name": "B. Procedural Steps",
             "items": [
-              "Art 30: Take-charge request (new applicant)",
-              "Art 32: Take-back request (absconded/secondary movement)",
-              "Art 31: Reply deadlines and tacit acceptance (Art 31(3))",
-              "Art 35: Transfer decision issuance",
-              "Art 36: Transfer execution deadline (6 months, extended if detained)",
-              "Art 38: Cessation of responsibility"
+              "Art 30: Unaccompanied minors (Unaccompanied minors (Take-charge request (new applicant)))",
+              "Art 32: Discretionary clauses (Discretionary clauses (Take-back request (absconded/secondary movement)))",
+              "Art 31: Dependency (Dependency (Reply deadlines and tacit acceptance (Art 31(3))))",
+              "Art 35: Examination of an application for international protection (Examination of an application for international protection (Transfer decision issuance))",
+              "Art 36: Cessation of responsibility (Cessation of responsibility (Transfer execution deadline (6 months, extended if detained)))",
+              "Art 38: Submitting a take-back notification (Submitting a take-back notification (Cessation of responsibility))"
             ],
             "keywords": [
               "take charge",
@@ -1564,12 +1564,12 @@
           {
             "name": "C. Solidarity Mechanism",
             "items": [
-              "Art 44: Solidarity framework overview",
-              "Art 45: Solidarity contributions (relocation, financial, sponsorship)",
-              "Art 46: Relocation mechanism",
-              "Art 47: Financial contribution alternative",
-              "Art 48: Return sponsorship",
-              "Art 52: Annual solidarity pool and allocation key"
+              "Art 44: Costs of transfer (Costs of transfer (Solidarity framework overview))",
+              "Art 45: Exchange of relevant information before a transfer is carried out (Exchange of relevant information before a transfer is carried out (Solidarity contributions (relocation, financial, sponsorship)))",
+              "Art 46: Exchange of health data before a transfer is carried out (Exchange of health data before a transfer is carried out (Relocation mechanism))",
+              "Art 47: Cooperation on fraud (Cooperation on fraud (Financial contribution alternative))",
+              "Art 48: Conciliation (Conciliation (Return sponsorship))",
+              "Art 52: Solidarity contributions (Solidarity contributions (Annual solidarity pool and allocation key))"
             ],
             "keywords": [
               "solidarity",
@@ -1583,8 +1583,8 @@
           {
             "name": "D. Crisis & Pressure",
             "items": [
-              "Art 54: Disproportionate migratory pressure (definition, thresholds)",
-              "Art 55: Commission assessment and activation",
+              "Art 54: The Solidarity Pool (The Solidarity Pool (Disproportionate migratory pressure (definition, thresholds)))",
+              "Art 55: Solidarity response plans (Solidarity response plans (Commission assessment and activation))",
               "Temporary solidarity increase",
               "Extended deadlines during pressure"
             ],
@@ -1613,12 +1613,12 @@
           {
             "name": "A. Refugee Status",
             "items": [
-              "Art 2(d) & Art 6: Refugee definition (well-founded fear, persecution)",
-              "Art 7: Actors of persecution (State, parties/organisations, non-State actors)",
-              "Art 8: Actors of protection (State, international organisations, NGOs)",
-              "Art 9: Acts of persecution (serious human rights violations)",
-              "Art 10: Internal protection alternative (IPA)",
-              "Art 11: Convention grounds (race, religion, nationality, political opinion, PSG)",
+              "Art 2: Material scope (Material scope (Refugee definition (well-founded fear, persecution)))",
+              "Art 7: Actors of protection (Actors of protection (Actors of persecution (State, parties/organisations, non-State actors)))",
+              "Art 8: Internal protection alternative (Internal protection alternative (Actors of protection (State, international organisations, NGOs)))",
+              "Art 9: Acts of persecution (Acts of persecution (Acts of persecution (serious human rights violations)))",
+              "Art 10: Reasons for persecution (Reasons for persecution (Internal protection alternative (IPA)))",
+              "Art 11: Cessation (Cessation (Convention grounds (race, religion, nationality, political opinion, PSG)))",
               "Nexus requirement (causal link)"
             ],
             "keywords": [
@@ -1643,9 +1643,9 @@
           {
             "name": "B. Subsidiary Protection",
             "items": [
-              "Art 2(f) & Art 15: Subsidiary protection definition",
-              "Art 16: Serious harm (death penalty, torture, serious individual threat)",
-              "Art 15(c): Indiscriminate violence in armed conflict",
+              "Art 2: Material scope (Material scope (Subsidiary protection definition))",
+              "Art 16: Cessation (Cessation (Serious harm (death penalty, torture, serious individual threat)))",
+              "Art 15: Serious harm (Serious harm (Indiscriminate violence in armed conflict))",
               "Lower threshold than refugee status",
               "Future-focused risk assessment"
             ],
@@ -1666,8 +1666,8 @@
           {
             "name": "C. Exclusion Clauses",
             "items": [
-              "Art 12: Refugee exclusion (Art 1F Geneva Convention)",
-              "Art 17: Subsidiary protection exclusion",
+              "Art 12: Exclusion (Exclusion (Refugee exclusion (Art 1F Geneva Convention)))",
+              "Art 17: Exclusion (Exclusion (Subsidiary protection exclusion))",
               "Crimes against peace, war crimes, crimes against humanity",
               "Serious non-political crimes",
               "Acts contrary to UN purposes and principles",
@@ -1690,9 +1690,9 @@
           {
             "name": "D. Cessation & Revocation",
             "items": [
-              "Art 13: Cessation (changed circumstances, re-availment)",
-              "Art 14: Revocation (fraud, misrepresentation, concealment)",
-              "Art 23: Security grounds for withdrawal",
+              "Art 13: Granting of refugee status (Granting of refugee status (Cessation (changed circumstances, re-availment)))",
+              "Art 14: Withdrawal of refugee status (Withdrawal of refugee status (Revocation (fraud, misrepresentation, concealment)))",
+              "Art 23: Maintaining family unity (Maintaining family unity (Security grounds for withdrawal))",
               "Voluntary re-availment of national protection",
               "Durable change in country of origin"
             ],
@@ -1708,12 +1708,12 @@
           {
             "name": "E. Rights & Benefits",
             "items": [
-              "Art 24: Residence permit (duration, renewal)",
-              "Art 25: Travel document issuance",
-              "Art 26: Access to employment and self-employment",
-              "Art 29: Social welfare and assistance",
-              "Art 30: Healthcare access",
-              "Art 34: Integration measures and language courses"
+              "Art 24: Residence permits (Residence permits (Residence permit (duration, renewal)))",
+              "Art 25: Travel document (Travel document (Travel document issuance))",
+              "Art 26: Freedom of movement within the Member State (Freedom of movement within the Member State (Access to employment and self-employment))",
+              "Art 29: Access to education (Access to education (Social welfare and assistance))",
+              "Art 30: Access to procedures for recognition of qualifications and validation of skills (Access to procedures for recognition of qualifications and validation of skills (Healthcare access))",
+              "Art 34: Access to accommodation (Access to accommodation (Integration measures and language courses))"
             ],
             "keywords": [
               "rights",
@@ -1736,9 +1736,9 @@
           {
             "name": "A. Scope & Material Conditions",
             "items": [
-              "Art 3: Scope of application",
-              "Art 17: Material reception conditions (housing, food, clothing, health)",
-              "Art 20: Reduction or withdrawal of material conditions (grounds, safeguards)",
+              "Art 3: Scope (Scope (Scope of application))",
+              "Art 17: Employment (Employment (Material reception conditions (housing, food, clothing, health)))",
+              "Art 20: Arrangements for material reception conditions (Arrangements for material reception conditions (Reduction or withdrawal of material conditions (grounds, safeguards)))",
               "Standards of living (dignity, adequate standard)",
               "Cash vs in-kind provision"
             ],
@@ -1755,9 +1755,9 @@
           {
             "name": "B. Detention",
             "items": [
-              "Art 8: Grounds for detention (identity, evidence, security, public order)",
-              "Art 9: Detention guarantees (judicial review, legal assistance, information)",
-              "Art 11: Detention of vulnerable persons (minors, families, victims)",
+              "Art 8: Allocation of applicants to a geographical area (Allocation of applicants to a geographical area (Grounds for detention (identity, evidence, security, public order)))",
+              "Art 9: Restrictions of freedom of movement (Restrictions of freedom of movement (Detention guarantees (judicial review, legal assistance, information)))",
+              "Art 11: Guarantees for detained applicants (Guarantees for detained applicants (Detention of vulnerable persons (minors, families, victims)))",
               "Alternatives to detention (reporting, financial guarantees, residence restrictions)",
               "Proportionality and necessity test",
               "Maximum detention duration"
@@ -1780,8 +1780,8 @@
           {
             "name": "C. Labour Market & Education",
             "items": [
-              "Art 15: Access to employment (timeline, restrictions)",
-              "Art 16: Vocational training and education access",
+              "Art 15: Medical screening (Medical screening (Access to employment (timeline, restrictions)))",
+              "Art 16: Schooling and education of minors (Schooling and education of minors (Vocational training and education access))",
               "Qualification recognition",
               "Professional licences",
               "Access to education for minors"
@@ -1798,11 +1798,11 @@
           {
             "name": "D. Vulnerable Persons",
             "items": [
-              "Art 21: Definition and categories of vulnerable persons",
-              "Art 22: Assessment of special reception needs",
-              "Art 23: Minors (education, family unity, recreation)",
-              "Art 24: Unaccompanied minors (guardianship, tracing, accommodation)",
-              "Art 25: Victims of torture, rape, violence (medical/psychological care)"
+              "Art 21: Reception conditions in a Member State other than the one in which the applicant is required to be present (Reception conditions in a Member State other than the one in which the applicant is required to be present (Definition and categories of vulnerable persons))",
+              "Art 22: Health care (Health care (Assessment of special reception needs))",
+              "Art 23: Reduction or withdrawal of material reception conditions (Reduction or withdrawal of material reception conditions (Minors (education, family unity, recreation)))",
+              "Art 24: Applicants with special reception needs (Applicants with special reception needs (Unaccompanied minors (guardianship, tracing, accommodation)))",
+              "Art 25: Assessment of special reception needs (Assessment of special reception needs (Victims of torture, rape, violence (medical/psychological care)))"
             ],
             "keywords": [
               "vulnerable",
@@ -1831,9 +1831,9 @@
           {
             "name": "A. Activation Grounds",
             "items": [
-              "Art 1-2: Crisis situation definition (mass influx, overwhelming pressure)",
-              "Art 3: Instrumentalisation (deliberate facilitation by third countries)",
-              "Art 4: Force majeure (natural disaster, pandemic, exceptional circumstances)",
+              "Art 1-2: Subject matter (Crisis situation definition (mass influx, overwhelming pressure))",
+              "Art 3: Commission implementing decision establishing a situation of crisis or force majeure (Instrumentalisation (deliberate facilitation by third countries))",
+              "Art 4: Commission proposal and Council implementing decision authorising derogations and establishing solidarity measures (Force majeure (natural disaster, pandemic, exceptional circumstances))",
               "Activation thresholds and criteria",
               "Commission decision procedure"
             ],
@@ -1854,9 +1854,9 @@
           {
             "name": "B. Procedural Derogations",
             "items": [
-              "Art 6: Extended border procedure (up to 20 weeks)",
-              "Art 7: Extended registration deadlines",
-              "Art 8: Temporary procedural derogations and safeguards",
+              "Art 6: Monitoring (Extended border procedure (up to 20 weeks))",
+              "Art 7: EU Solidarity coordinator (Extended registration deadlines)",
+              "Art 8: Solidarity and support measures in a situation of crisis (Temporary procedural derogations and safeguards)",
               "Suspension of certain time limits",
               "Adapted examination standards",
               "Fundamental rights compliance"
@@ -1873,9 +1873,9 @@
           {
             "name": "C. Crisis Solidarity",
             "items": [
-              "Art 12: Mandatory relocation during crisis",
-              "Art 13: Enhanced solidarity contributions",
-              "Art 14: Rapid response mechanism",
+              "Art 12: Extension of time limits set out for take charge requests, take back notifications and transfers in a situation of crisis referred to in Article 1(4), point (a), or force majeure (Mandatory relocation during crisis)",
+              "Art 13: Derogations from the obligation to take back an applicant in a situation of extraordinary mass arrivals (Enhanced solidarity contributions)",
+              "Art 14: Expedited procedure (Rapid response mechanism)",
               "Increased relocation quotas",
               "Emergency financial support",
               "Operational support from EUAA"
