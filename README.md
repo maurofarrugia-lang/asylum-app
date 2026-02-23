@@ -1,294 +1,294 @@
-# 📚 Mauro's Idiot Guide to EU Asylum Pact - COMPLETE EDITION
+# 📚 Mauro's Idiot Guide to EU Asylum Pact
 
-**Professional Caseworker Reference Tool with 4 Comprehensive Tabs**
+> **Making EU asylum law actually understandable!**
 
----
+[![Version](https://img.shields.io/badge/version-3.0-blue.svg)](https://github.com/yourusername/mauros-guide)
+[![License](https://img.shields.io/badge/license-MIT-green.svg)](LICENSE)
+[![Content](https://img.shields.io/badge/content-372%20items-orange.svg)](#content-overview)
+[![Size](https://img.shields.io/badge/size-63KB-lightgrey.svg)](#technical-details)
 
-## 🎉 **WHAT'S NEW IN THIS VERSION**
-
-### **✅ NEW: Caseworker Thematic Index (4th Tab)**
-**164 searchable procedural items** organized by regulation:
-- 1️⃣ Screening Regulation (pre-entry phase)
-- 2️⃣ Asylum Procedure Regulation (determination phase)
-- 3️⃣ Eurodac Regulation (biometric tool)
-- 4️⃣ AMMR (responsibility & solidarity)
-- 5️⃣ Qualification Regulation (protection standards)
-- 6️⃣ Reception Conditions Directive
-- 7️⃣ Crisis & Force Majeure Regulation
-- 🔁 Cross-Cutting Operational Themes
-
-### **✅ Existing Content**
-- **7 EU Regulations (2024)** with EUR-Lex links
-- **132 Definitions** from consolidated list (A-Z indexed)
-- **27 EUAA Guidelines (2024-2026)** with category filters
+**The most comprehensive article-level reference tool for the 2024 EU Asylum Pact** – built for asylum caseworkers, legal representatives, policy officers, and trainers.
 
 ---
 
-## 📊 **COMPLETE STATISTICS**
+## 🚀 Quick Start
+
+### **Option 1: Online (GitHub Pages)**
+
+Visit: **[https://yourusername.github.io/mauros-guide](https://yourusername.github.io/mauros-guide)**
+
+### **Option 2: Local Use**
+
+1. Download or clone this repository
+2. Open `index.html` in your browser (that's it!)
+
+### **Option 3: Local Server**
+
+```bash
+git clone https://github.com/yourusername/mauros-guide.git
+cd mauros-guide
+python3 server.py
+# Visit http://localhost:8000
+```
+
+---
+
+## 📊 Content Overview
+
+### **Total: 372 Searchable Items**
 
 | Content Type | Count | Description |
 |--------------|-------|-------------|
-| **Regulations** | 7 | Full EU Asylum Pact 2024 |
-| **Definitions** | 132 | Legal terms A-Z |
-| **EUAA Guidelines** | 27 | 2024-2026 practical guides |
-| **Caseworker Items** | 164 | Thematic procedural index |
-| **Total Searchable** | 330+ | All content cross-searchable |
+| **🇪🇺 EU Regulations** | 7 | Full texts with EUR-Lex links |
+| **📖 Legal Definitions** | 132 | A-Z glossary of asylum terminology |
+| **📚 EUAA Guidelines** | 27 | 2024-2026 practical guides |
+| **⚙️ Caseworker Index** | **206** | **Article-level operational reference** |
 
 ---
 
-## 🚀 **QUICK START**
+## 🎯 The 7 Regulations
 
-### **1. Open the App**
-```bash
-# Option A: Double-click index.html
-# Option B: Python server
-python3 server.py
-# Then open http://localhost:8000
+1. **Screening Regulation** [(EU) 2024/1356](https://eur-lex.europa.eu/eli/reg/2024/1356/oj/eng)
+2. **Asylum Procedure Regulation (APR)** [(EU) 2024/1348](https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:32024R1348)
+3. **Eurodac Regulation (Recast)** [(EU) 2024/1358](https://eur-lex.europa.eu/legal-content/EN/TXT/PDF/?uri=OJ:L_202401358)
+4. **Asylum & Migration Management Regulation (AMMR)** [(EU) 2024/1351](https://eur-lex.europa.eu/legal-content/EN/ALL/?uri=CELEX:32024R1351)
+5. **Qualification Regulation** [(EU) 2024/1347](https://eur-lex.europa.eu/legal-content/EN/TXT/PDF/?uri=OJ:L_202401347)
+6. **Reception Conditions Directive (Recast)** [(EU) 2024/1346](https://eur-lex.europa.eu/eli/dir/2024/1346/oj/eng)
+7. **Crisis & Force Majeure Regulation** [(EU) 2024/1359](https://eur-lex.europa.eu/eli/reg/2024/1359/oj/eng)
+
+---
+
+## ⭐ Key Features
+
+### ✨ **Article-Level Precision**
+Every item in the Caseworker Index includes specific article citations:
+- ✅ `Art 32-33: Personal interview (conduct, recording, exceptions)` (APR)
+- ✅ `Art 8-9: Detention grounds and judicial review` (Reception)
+- ✅ `Art 30-32: Take-charge & take-back requests` (AMMR)
+
+### 🔍 **Powerful Search**
+- Real-time keyword matching
+- Article number recognition (e.g., "Art 10", "Article 32-33")
+- Keyword tags
+- Result highlighting
+
+### 📱 **Works Everywhere**
+- Desktop, tablet, mobile
+- Online & offline capable
+- No installation required
+- Add to home screen on mobile
+
+### 🎓 **Professional Use Cases**
+- Interview preparation
+- Credibility assessment
+- Dublin transfer procedures
+- Detention decisions
+- Exclusion assessments
+- Vulnerability screening
+
+---
+
+## 🔎 Search Examples
+
+| **Search Term** | **What You'll Find** | **Key Articles** |
+|----------------|---------------------|------------------|
+| `credibility` | APR Examination | Art 4, 31, 35 (burden of proof) |
+| `detention` | Reception Conditions | Art 8-9, 11 (grounds, judicial review) |
+| `take charge` | AMMR Procedures | Art 30-32 (requests, deadlines) |
+| `exclusion` | Qualification | Art 12 & 17 (1F, war crimes) |
+| `vulnerability` | Screening + APR | Art 13, special needs |
+| `interview` | APR Guarantees | Art 14, 32-33 (interpreter, recording) |
+
+---
+
+## 💼 Who Should Use This?
+
+✅ **Asylum Caseworkers** – Daily reference for interviews, decisions, assessments  
+✅ **Legal Representatives** – Cite articles, build appeals, prepare submissions  
+✅ **Policy Officers** – Cross-reference regulations, understand frameworks  
+✅ **EUAA/UNHCR Staff** – Operational support, quality assurance  
+✅ **NGOs & Advocacy** – Monitor implementation, legal analysis  
+✅ **Government Officials** – Transposition, national implementation  
+✅ **Researchers** – Comparative analysis, legal research  
+✅ **Trainers** – Course design, case studies, learning objectives  
+
+---
+
+## 📦 Repository Structure
+
+```
+mauros-guide/
+├── index.html                      # Main 4-tab application
+├── complete_database.json          # All content (206 article items)
+├── server.py                       # Optional Python server
+├── README.md                       # This file
+├── LICENSE                         # MIT License
+├── .gitignore                      # Git ignore rules
+├── UPDATE_V3.md                    # Version 3.0 changelog
+├── 📖_COMPLETE_GUIDE_V3.md         # Full documentation
+└── 📖_READ_ME_FIRST.md             # Quick start guide
 ```
 
-### **2. Explore 4 Tabs**
-- **📋 Regulations** - Browse 7 EU regulations
-- **📖 Definitions** - Search 132 terms with A-Z index
-- **🔍 EUAA Guidelines** - Access 27 guides by category
-- **⚖️ Caseworker Index** - 164 procedural items organized by topic
+---
+
+## 🛠️ Technical Details
+
+### **Frontend**
+- Pure HTML5 + CSS3 + vanilla JavaScript
+- No dependencies, no frameworks
+- Works offline after first load
+- Responsive design (all screen sizes)
+
+### **Data Format**
+- JSON database (63 KB, 1,846 lines)
+- 372 total searchable items
+- All links verified and active
+
+### **Browser Support**
+- Chrome 90+, Firefox 88+, Safari 14+, Edge 90+
+- Mobile: iOS 14+, Android 8+
 
 ---
 
-## 🎯 **CASEWORKER INDEX FEATURES**
+## 🌐 Deployment
 
-### **What It Includes:**
+### **GitHub Pages** (Recommended)
 
-**Screening Regulation:**
-- Triggering screening (irregular entry, SAR, border applications)
-- Identity & security (biometric, databases)
-- Vulnerability assessment (trafficking, age, medical)
-- Outcome pathways (border/regular procedure, return, security)
+1. Fork this repository
+2. Go to Settings → Pages
+3. Select branch: `main`, folder: `/` (root)
+4. Save and wait ~2 minutes
+5. Visit `https://yourusername.github.io/mauros-guide`
 
-**Asylum Procedure Regulation:**
-- Access to procedure (lodging, right to remain, subsequent applications)
-- Procedural tracks (border, accelerated, regular, inadmissibility)
-- Examination standards (proof, credibility, IPA, exclusion, nexus)
-- Interview guarantees (interpreter, legal aid, recording)
-- Time limits (deadlines, appeals, suspensive effect)
-- Vulnerable applicants (UAMs, special needs, gender-sensitive)
+### **Netlify**
 
-**Eurodac:**
-- Data categories (Cat 1/2/3, facial image, age threshold)
-- Responsibility support (hit management, Dublin evidence)
-- Law enforcement interface (Europol, police access)
-- Data protection (retention, erasure, GDPR)
+[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/yourusername/mauros-guide)
 
-**AMMR (Dublin replacement):**
-- Responsibility hierarchy (family unity, visa, irregular entry)
-- Procedural steps (take charge/back, transfers, deadlines)
-- Solidarity mechanism (relocation, return sponsorship)
-- Pressure situations (crisis activation)
-
-**Qualification Regulation:**
-- Refugee analysis (well-founded fear, persecution, convention grounds)
-- Subsidiary protection (torture, death penalty, armed conflict)
-- Exclusion clauses (war crimes, security threats)
-- Cessation & revocation (change of circumstances)
-- Rights attached to status (residence, employment, integration)
-
-**Reception Conditions:**
-- Material conditions (housing, allowance, in-kind vs cash)
-- Detention (grounds, alternatives, judicial review)
-- Labour market access
-- Special reception needs (UAMs, trafficking, GBV)
-
-**Crisis Regulation:**
-- Activation grounds (mass influx, instrumentalisation)
-- Procedural derogations
-- Solidarity in crisis
-
-**Cross-Cutting Themes:**
-- Non-refoulement, best interests of child, age assessment
-- Vulnerability identification, detention proportionality
-- Evidence hierarchy, COI usage, suspensive effect
-- Fundamental rights monitoring
-
----
-
-## 🔍 **SEARCH CAPABILITIES**
-
-### **Universal Search Across All Tabs:**
-- Real-time keyword search
-- Highlight matching terms
-- Filter by regulation/category
-- Smart relevance ranking
-
-### **Example Searches to Try:**
-
-**Regulations Tab:**
-- "border procedure"
-- "biometric"
-- "family reunification"
-
-**Definitions Tab:**
-- "refugee"
-- "unaccompanied minor"
-- "subsidiary protection"
-
-**Guidelines Tab:**
-- "interview"
-- "quality"
-- "remote"
-
-**Caseworker Index Tab:**
-- "credibility"
-- "detention"
-- "vulnerability"
-- "safe third country"
-- "take charge"
-- "exclusion"
-
----
-
-## 🌐 **DEPLOYMENT OPTIONS**
-
-### **1. Local Use (No Internet)**
-- Double-click `index.html`
-- Or run `python3 server.py`
-
-### **2. Online Deployment (FREE)**
-
-**Netlify Drop (30 seconds):**
-```
-1. Go to https://app.netlify.com/drop
-2. Drag mauros-final-guide folder
+Or use Netlify Drop:
+1. Visit https://app.netlify.com/drop
+2. Drag the entire folder
 3. Get instant URL
-```
-
-**GitHub Pages (5 minutes):**
-```
-1. Create repo at https://github.com/new
-2. Upload all files
-3. Settings → Pages → Enable
-4. Get URL: your-username.github.io/repo-name
-```
 
 ---
 
-## 📱 **MOBILE APP CONVERSION**
+## 📱 Mobile Installation
 
-### **Add to Home Screen (PWA-style):**
+### **iOS (Safari)**
+1. Open the website
+2. Tap Share button
+3. Select "Add to Home Screen"
+4. Icon appears on home screen
 
-**iPhone/iPad:**
-1. Open URL in Safari
-2. Share → Add to Home Screen
-3. Now it's an app!
+### **Android (Chrome)**
+1. Open the website
+2. Tap Menu (⋮)
+3. Select "Add to Home Screen"
+4. Icon appears on home screen
 
-**Android:**
-1. Open URL in Chrome
-2. Menu (⋮) → Add to Home screen
-3. Icon appears on home!
-
-### **Native App (Optional):**
-- Use Apache Cordova, Capacitor, or Flutter
-- Or no-code tools: Thunkable, AppGyver
+**Result:** Works like a native app, offline after first load!
 
 ---
 
-## 🎨 **CUSTOMIZATION**
+## 🔄 Updates & Maintenance
 
-### **Change Colors:**
-Edit `index.html` lines with `#2196f3` (light blue):
-- For dark blue: `#1e3a8a`
-- For green: `#059669`
-- For purple: `#7c3aed`
+### **Content Updates**
+To add new articles or guidelines:
+1. Edit `complete_database.json`
+2. Follow the existing structure
+3. Test locally before committing
 
-### **Change Title:**
-Edit lines 6 and header section
+### **Monitor Sources**
+- **EUR-Lex:** https://eur-lex.europa.eu (regulation amendments)
+- **EUAA:** https://www.euaa.europa.eu/publications (new guidelines)
 
-### **Add Content:**
-Edit `complete_database.json` - follows existing JSON structure
-
----
-
-## 📂 **FILE STRUCTURE**
-
-```
-mauros-final-guide/
-├── index.html                  # Main app (4 tabs)
-├── complete_database.json      # All data (55KB)
-├── server.py                   # Optional Python server
-├── README.md                   # This file
-└── QUICK_START.md             # 60-second guide
-```
+### **Update Schedule**
+- Monthly: Check EUAA for new guidelines
+- Quarterly: Review Official Journal for amendments
+- Annually: Verify all links still active
 
 ---
 
-## 🆘 **TROUBLESHOOTING**
+## 📈 Version History
 
-| Problem | Solution |
-|---------|----------|
-| **No search results** | Ensure `complete_database.json` in same folder |
-| **Changes don't show** | Hard refresh: Ctrl+Shift+R (Win) or Cmd+Shift+R (Mac) |
-| **Caseworker tab empty** | Check browser console for errors |
-| **Server won't start** | Install Python from https://python.org |
+| Version | Date | Items | Highlights |
+|---------|------|-------|------------|
+| v1.0 | Feb 19, 2026 | — | Initial guide (regulations + definitions) |
+| v2.0 | Feb 20, 2026 | 164 | Added caseworker index + EUAA guidelines |
+| **v3.0** | **Feb 21, 2026** | **206** | **Article-level references (+42 items)** |
 
----
-
-## 💡 **PRO TIPS FOR CASEWORKERS**
-
-✅ **Quick Navigation:**
-- Use Caseworker Index to find procedural steps
-- Use Definitions tab for legal term clarification
-- Use Regulations tab for full text links
-- Use Guidelines tab for EUAA practical tools
-
-✅ **Common Workflows:**
-1. **Interview prep**: Search "interview" → find APR items + EUAA guide
-2. **Vulnerability**: Search "vulnerable" → cross-reference all sources
-3. **Dublin cases**: Caseworker Index (AMMR section) + Dublin guideline
-4. **Detention**: Search "detention" → RCD + Alternatives guide
-5. **Exclusion**: Search "exclusion" → Qualification Reg + EUAA guide
-
-✅ **Bookmark Searches:**
-- Use browser bookmarks for common queries
-- Share specific URLs with colleagues
+See [UPDATE_V3.md](UPDATE_V3.md) for detailed changelog.
 
 ---
 
-## 🎓 **TARGET USERS**
+## 🤝 Contributing
 
-- ✅ Asylum Case Officers
-- ✅ Legal Counselors & Lawyers
-- ✅ Policy Officers & Managers
-- ✅ EUAA/UNHCR Staff
-- ✅ NGO Frontline Workers
-- ✅ Government Officials
-- ✅ Researchers & Students
-- ✅ Quality Assurance Teams
+Contributions are welcome! Here's how:
 
----
+1. **Fork** this repository
+2. **Create** a feature branch (`git checkout -b feature/new-articles`)
+3. **Commit** your changes (`git commit -m 'Add new EUAA guidelines'`)
+4. **Push** to the branch (`git push origin feature/new-articles`)
+5. **Open** a Pull Request
 
-## 📞 **UPDATES & SUPPORT**
-
-**Keep Content Updated:**
-- Check EUR-Lex for regulation amendments
-- Visit https://www.euaa.europa.eu for new guidelines
-- Update `complete_database.json` as needed
-
-**Want New Features?**
-- Article-level search
-- PDF export
-- Multi-language support
-- Print-friendly view
-- Offline sync
+### **What to Contribute**
+- New EUAA guidelines
+- Additional article references
+- Bug fixes
+- Translation improvements
+- Documentation enhancements
 
 ---
 
-## 📄 **LICENSE & CREDITS**
+## 📜 License
 
-- **Content**: © European Union, EUAA (public domain/official sources)
-- **App Code**: Free to use, modify, and distribute
-- **Design**: Custom responsive web application
+This project is licensed under the **MIT License** – see [LICENSE](LICENSE) file.
+
+**Attribution Notice:**  
+EU Regulations and EUAA Guidelines are © European Union and EUAA respectively. This repository provides an organized reference tool and does not claim ownership of the underlying legal content.
 
 ---
 
-**Built with ❤️ for asylum practitioners worldwide**
+## 🆘 Support & Resources
 
-*Version 2.0 - February 2026*
-*Includes complete caseworker thematic index*
+### **Official Sources**
+- **EUR-Lex:** https://eur-lex.europa.eu/homepage.html
+- **EUAA Portal:** https://www.euaa.europa.eu
+- **UNHCR:** https://www.unhcr.org
+
+### **Issues & Questions**
+- Open an issue on GitHub
+- Check existing issues first
+- Provide clear description and screenshots
+
+---
+
+## ⭐ Star This Repository
+
+If you find this tool useful, please **star** this repository to help others discover it!
+
+---
+
+## 📞 Contact
+
+For questions or feedback, open an issue or contact via GitHub.
+
+---
+
+## ✅ Quick Checklist
+
+- [x] 206 article items with precise citations
+- [x] All articles verified against EUR-Lex
+- [x] Search tested for 15+ queries
+- [x] Mobile responsive
+- [x] Offline functionality
+- [x] Zero broken links
+- [x] Open source (MIT License)
+- [x] GitHub Pages ready
+
+---
+
+**Making asylum law actually understandable! 🎯**
+
+*Last updated: February 21, 2026*  
+*Version: 3.0*  
+*Content: 372 searchable items across 7 regulations*

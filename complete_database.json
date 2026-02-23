@@ -1132,6 +1132,12 @@
               "irregular entry",
               "duration",
               "timeline"
+            ],
+            "related_guidelines": [
+              {
+                "title": "Practical Guide on Registration and Lodging of Applications",
+                "url": "https://www.euaa.europa.eu/publications/practical-guide-registration-and-lodging-applications-international-protection"
+              }
             ]
           },
           {
@@ -1148,7 +1154,8 @@
               "database",
               "verification",
               "fingerprints"
-            ]
+            ],
+            "related_guidelines": []
           },
           {
             "name": "C. Health & Vulnerability",
@@ -1166,6 +1173,16 @@
               "minors",
               "best interests",
               "age assessment"
+            ],
+            "related_guidelines": [
+              {
+                "title": "Operational Standards on Vulnerability-related Aspects",
+                "url": "https://euaa.europa.eu/publications/operational-standards-indicators-vulnerability-related-aspects-asylum-procedure"
+              },
+              {
+                "title": "Practical Guide on Family Tracing - Part I",
+                "url": "https://euaa.europa.eu/publications/practical-guide-family-tracing-part-i"
+              }
             ]
           },
           {
@@ -1183,9 +1200,24 @@
               "referral",
               "monitoring",
               "fundamental rights"
+            ],
+            "related_guidelines": [
+              {
+                "title": "Practical Guide on Information Provision in the Asylum Procedure",
+                "url": "https://www.euaa.europa.eu/publications/practical-guide-information-provision-asylum-procedure"
+              },
+              {
+                "title": "Asylum Report 2025",
+                "url": "https://www.euaa.europa.eu/publications/asylum-report-2025"
+              },
+              {
+                "title": "Practical Guide on Quality Assurance in Asylum Procedures",
+                "url": "https://euaa.europa.eu/publications/practical-guide-quality-assurance-asylum-procedures"
+              }
             ]
           }
-        ]
+        ],
+        "url": "https://eur-lex.europa.eu/eli/reg/2024/1356/oj/eng"
       },
       {
         "id": "apr",
@@ -1208,6 +1240,12 @@
               "right to remain",
               "subsequent",
               "re-application"
+            ],
+            "related_guidelines": [
+              {
+                "title": "Practical Guide on Registration and Lodging of Applications",
+                "url": "https://www.euaa.europa.eu/publications/practical-guide-registration-and-lodging-applications-international-protection"
+              }
             ]
           },
           {
@@ -1228,6 +1266,12 @@
               "inadmissibility",
               "safe country",
               "third country"
+            ],
+            "related_guidelines": [
+              {
+                "title": "Guidelines on Alternatives to Detention",
+                "url": "https://euaa.europa.eu/publications/guidelines-alternatives-detention"
+              }
             ]
           },
           {
@@ -1249,6 +1293,16 @@
               "IPA",
               "exclusion",
               "nexus"
+            ],
+            "related_guidelines": [
+              {
+                "title": "Practical Guide on Evidence and Risk Assessment",
+                "url": "https://euaa.europa.eu/publications/practical-guide-evidence-assessment"
+              },
+              {
+                "title": "Practical Guide on Exclusion for Serious Crimes",
+                "url": "https://euaa.europa.eu/publications/practical-guide-exclusion-serious-non-political-crimes"
+              }
             ]
           },
           {
@@ -1268,6 +1322,20 @@
               "recording",
               "comment",
               "representation"
+            ],
+            "related_guidelines": [
+              {
+                "title": "Practical Guide on Audio Recording of Personal Interviews",
+                "url": "https://euaa.europa.eu/publications/practical-guide-audio-recording-personal-interviews"
+              },
+              {
+                "title": "Practical Guide on Interpretation in the Asylum Procedure",
+                "url": "https://euaa.europa.eu/publications/practical-guide-interpretation-asylum-procedure"
+              },
+              {
+                "title": "Practical Guide on Free Legal Counselling",
+                "url": "https://euaa.europa.eu/publications/practical-guide-free-legal-counselling"
+              }
             ]
           },
           {
@@ -1286,7 +1354,8 @@
               "withdrawal",
               "decision",
               "notification"
-            ]
+            ],
+            "related_guidelines": []
           },
           {
             "name": "F. Vulnerable Applicants",
@@ -1308,6 +1377,16 @@
               "gender",
               "LGBTIQ",
               "trafficking"
+            ],
+            "related_guidelines": [
+              {
+                "title": "Operational Standards on Vulnerability-related Aspects",
+                "url": "https://euaa.europa.eu/publications/operational-standards-indicators-vulnerability-related-aspects-asylum-procedure"
+              },
+              {
+                "title": "Practical Guide on Membership of a Particular Social Group",
+                "url": "https://euaa.europa.eu/publications/practical-guide-membership-particular-social-group"
+              }
             ]
           },
           {
@@ -1325,9 +1404,16 @@
               "suspensive effect",
               "judicial review",
               "legal aid"
+            ],
+            "related_guidelines": [
+              {
+                "title": "Practical Guide on Free Legal Counselling",
+                "url": "https://euaa.europa.eu/publications/practical-guide-free-legal-counselling"
+              }
             ]
           }
-        ]
+        ],
+        "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:32024R1348"
       },
       {
         "id": "eurodac",
@@ -1349,6 +1435,16 @@
               "facial image",
               "age threshold",
               "quality"
+            ],
+            "related_guidelines": [
+              {
+                "title": "Practical Guide on Quality Assurance in Asylum Procedures",
+                "url": "https://euaa.europa.eu/publications/practical-guide-quality-assurance-asylum-procedures"
+              },
+              {
+                "title": "Self-Assessment Tool on Quality of the Asylum Procedure",
+                "url": "https://reliefweb.int/report/world/self-assessment-tool-quality-asylum-procedure-august-2025"
+              }
             ]
           },
           {
@@ -1368,6 +1464,12 @@
               "hit",
               "comparison",
               "secondary movement"
+            ],
+            "related_guidelines": [
+              {
+                "title": "Guidance on the Dublin Procedure",
+                "url": "https://www.euaa.europa.eu/publications/guidance-dublin-procedure"
+              }
             ]
           },
           {
@@ -1384,7 +1486,8 @@
               "serious crime",
               "terrorism",
               "police access"
-            ]
+            ],
+            "related_guidelines": []
           },
           {
             "name": "D. Data Protection",
@@ -1402,9 +1505,11 @@
               "EDPS",
               "security",
               "audit"
-            ]
+            ],
+            "related_guidelines": []
           }
-        ]
+        ],
+        "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/PDF/?uri=OJ:L_202401358"
       },
       {
         "id": "ammr",
@@ -1428,6 +1533,12 @@
               "visa",
               "dependency",
               "hierarchy"
+            ],
+            "related_guidelines": [
+              {
+                "title": "Guidance on the Dublin Procedure",
+                "url": "https://www.euaa.europa.eu/publications/guidance-dublin-procedure"
+              }
             ]
           },
           {
@@ -1447,7 +1558,8 @@
               "deadline",
               "tacit acceptance",
               "cessation"
-            ]
+            ],
+            "related_guidelines": []
           },
           {
             "name": "C. Solidarity Mechanism",
@@ -1465,7 +1577,8 @@
               "financial contribution",
               "sponsorship",
               "pool"
-            ]
+            ],
+            "related_guidelines": []
           },
           {
             "name": "D. Crisis & Pressure",
@@ -1481,9 +1594,16 @@
               "migratory pressure",
               "activation",
               "solidarity increase"
+            ],
+            "related_guidelines": [
+              {
+                "title": "Guidance on Contingency Planning and Preparedness",
+                "url": "https://euaa.europa.eu/publications/guidance-contingency-planning-preparedness-asylum-procedure"
+              }
             ]
           }
-        ]
+        ],
+        "url": "https://eur-lex.europa.eu/legal-content/EN/ALL/?uri=CELEX:32024R1351"
       },
       {
         "id": "qualification",
@@ -1508,6 +1628,16 @@
               "actors",
               "IPA",
               "convention grounds"
+            ],
+            "related_guidelines": [
+              {
+                "title": "Practical Guide on Membership of a Particular Social Group",
+                "url": "https://euaa.europa.eu/publications/practical-guide-membership-particular-social-group"
+              },
+              {
+                "title": "Country Guidance: Iran",
+                "url": "https://www.euaa.europa.eu/country-guidance-iran"
+              }
             ]
           },
           {
@@ -1525,6 +1655,12 @@
               "torture",
               "armed conflict",
               "indiscriminate violence"
+            ],
+            "related_guidelines": [
+              {
+                "title": "Practical Guide on Qualification for International Protection",
+                "url": "https://euaa.europa.eu/publications/practical-guide-qualification-international-protection"
+              }
             ]
           },
           {
@@ -1543,6 +1679,12 @@
               "crimes against humanity",
               "1F",
               "serious crime"
+            ],
+            "related_guidelines": [
+              {
+                "title": "Practical Guide on Exclusion for Serious Crimes",
+                "url": "https://euaa.europa.eu/publications/practical-guide-exclusion-serious-non-political-crimes"
+              }
             ]
           },
           {
@@ -1560,7 +1702,8 @@
               "changed circumstances",
               "fraud",
               "security"
-            ]
+            ],
+            "related_guidelines": []
           },
           {
             "name": "E. Rights & Benefits",
@@ -1579,9 +1722,11 @@
               "employment",
               "social welfare",
               "integration"
-            ]
+            ],
+            "related_guidelines": []
           }
-        ]
+        ],
+        "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/PDF/?uri=OJ:L_202401347"
       },
       {
         "id": "reception",
@@ -1604,7 +1749,8 @@
               "reduction",
               "withdrawal",
               "dignity"
-            ]
+            ],
+            "related_guidelines": []
           },
           {
             "name": "B. Detention",
@@ -1623,6 +1769,12 @@
               "alternatives",
               "proportionality",
               "vulnerable"
+            ],
+            "related_guidelines": [
+              {
+                "title": "Guidelines on Alternatives to Detention",
+                "url": "https://euaa.europa.eu/publications/guidelines-alternatives-detention"
+              }
             ]
           },
           {
@@ -1640,7 +1792,8 @@
               "vocational training",
               "education",
               "qualifications"
-            ]
+            ],
+            "related_guidelines": []
           },
           {
             "name": "D. Vulnerable Persons",
@@ -1659,9 +1812,16 @@
               "torture",
               "victims",
               "guardianship"
+            ],
+            "related_guidelines": [
+              {
+                "title": "Operational Standards on Vulnerability-related Aspects",
+                "url": "https://euaa.europa.eu/publications/operational-standards-indicators-vulnerability-related-aspects-asylum-procedure"
+              }
             ]
           }
-        ]
+        ],
+        "url": "https://eur-lex.europa.eu/eli/dir/2024/1346/oj/eng"
       },
       {
         "id": "crisis",
@@ -1683,6 +1843,12 @@
               "instrumentalisation",
               "force majeure",
               "activation"
+            ],
+            "related_guidelines": [
+              {
+                "title": "Guidance on Contingency Planning and Preparedness",
+                "url": "https://euaa.europa.eu/publications/guidance-contingency-planning-preparedness-asylum-procedure"
+              }
             ]
           },
           {
@@ -1701,7 +1867,8 @@
               "deadlines",
               "time limits",
               "safeguards"
-            ]
+            ],
+            "related_guidelines": []
           },
           {
             "name": "C. Crisis Solidarity",
@@ -1719,9 +1886,16 @@
               "rapid response",
               "emergency",
               "EUAA support"
+            ],
+            "related_guidelines": [
+              {
+                "title": "Guidance on Contingency Planning and Preparedness",
+                "url": "https://euaa.europa.eu/publications/guidance-contingency-planning-preparedness-asylum-procedure"
+              }
             ]
           }
-        ]
+        ],
+        "url": "https://eur-lex.europa.eu/eli/reg/2024/1359/oj/eng"
       },
       {
         "id": "cross_cutting",
@@ -1743,6 +1917,12 @@
               "family unity",
               "effective remedy",
               "dignity"
+            ],
+            "related_guidelines": [
+              {
+                "title": "Practical Guide on Family Tracing - Part I",
+                "url": "https://euaa.europa.eu/publications/practical-guide-family-tracing-part-i"
+              }
             ]
           },
           {
@@ -1763,6 +1943,20 @@
               "medical reports",
               "credibility",
               "EUAA"
+            ],
+            "related_guidelines": [
+              {
+                "title": "Practical Guide on Evidence and Risk Assessment",
+                "url": "https://euaa.europa.eu/publications/practical-guide-evidence-assessment"
+              },
+              {
+                "title": "Country Guidance: Syria",
+                "url": "https://www.euaa.europa.eu/country-guidance-syria"
+              },
+              {
+                "title": "Country Guidance: Iran",
+                "url": "https://www.euaa.europa.eu/country-guidance-iran"
+              }
             ]
           },
           {
@@ -1783,6 +1977,12 @@
               "GBV",
               "mental health",
               "age assessment"
+            ],
+            "related_guidelines": [
+              {
+                "title": "Operational Standards on Vulnerability-related Aspects",
+                "url": "https://euaa.europa.eu/publications/operational-standards-indicators-vulnerability-related-aspects-asylum-procedure"
+              }
             ]
           },
           {
@@ -1802,7 +2002,8 @@
               "withdrawal",
               "subsequent",
               "transfer"
-            ]
+            ],
+            "related_guidelines": []
           },
           {
             "name": "E. Security & Public Order",
@@ -1820,6 +2021,12 @@
               "public order",
               "criminality",
               "proportionality"
+            ],
+            "related_guidelines": [
+              {
+                "title": "Practical Guide on Exclusion for Serious Crimes",
+                "url": "https://euaa.europa.eu/publications/practical-guide-exclusion-serious-non-political-crimes"
+              }
             ]
           },
           {
@@ -1838,9 +2045,20 @@
               "training",
               "monitoring",
               "coordination"
+            ],
+            "related_guidelines": [
+              {
+                "title": "Practical Guide on Quality Assurance in Asylum Procedures",
+                "url": "https://euaa.europa.eu/publications/practical-guide-quality-assurance-asylum-procedures"
+              },
+              {
+                "title": "Self-Assessment Tool on Quality of the Asylum Procedure",
+                "url": "https://reliefweb.int/report/world/self-assessment-tool-quality-asylum-procedure-august-2025"
+              }
             ]
           }
-        ]
+        ],
+        "url": "https://eur-lex.europa.eu"
       }
     ]
   }
