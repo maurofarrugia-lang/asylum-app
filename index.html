@@ -488,13 +488,14 @@
                     }
                     
                     return `${displayArt}: <span class="article-official-title">${displayOfficial}</span> <span class="article-practical-summary">(${displayPractical})</span>`;
+                }
             }
             
             // Fallback for non-hybrid format
-            return highlightText ? formatHybridArticle(item, highlightText) : item;
+            return highlightText ? highlight(item, highlightText) : item;
         }
 
-function displayCaseworkerIndex(categories, highlight = null) {
+        function displayCaseworkerIndex(categories, highlight = null) {
             const container = document.getElementById('caseworkerResults');
             
             if (!categories || categories.length === 0) {
