@@ -268,6 +268,17 @@
     }
 
 /* Case Law (EUAA) */
+.case-law-actions-row { display:flex; gap:10px; flex-wrap:wrap; margin-top:12px; }
+.euaa-search-btn {
+  background: #6a1b9a;
+  color: white;
+  border: none;
+  padding: 10px 14px;
+  border-radius: 8px;
+  font-weight: 700;
+  cursor: pointer;
+}
+.euaa-search-btn:hover { filter: brightness(0.95); }
 .case-law-filters {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
@@ -313,12 +324,7 @@
   margin-bottom: 8px;
   margin-right: 8px;
 }
-.case-meta-row {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 8px;
-  margin: 8px 0;
-}
+.case-meta-row { display:flex; flex-wrap:wrap; gap:8px; margin: 8px 0; }
 .case-actions a {
   display: inline-block;
   margin-top: 10px;
@@ -328,25 +334,25 @@
   font-weight: 700;
 }
 .case-actions a:hover { text-decoration: underline; }
-.theme-chips {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 8px;
-  margin-top: 12px;
-}
+.theme-chips { display:flex; flex-wrap:wrap; gap:8px; margin-top:12px; }
 .theme-chip {
-  background: #f3e5f5;
-  color: #6a1b9a;
-  border: 1px solid #6a1b9a;
-  padding: 6px 10px;
-  border-radius: 16px;
-  font-size: 0.9em;
-  cursor: pointer;
+  background:#f3e5f5;
+  color:#6a1b9a;
+  border:1px solid #6a1b9a;
+  padding:6px 10px;
+  border-radius:16px;
+  font-size:0.9em;
+  cursor:pointer;
   transition: all 0.2s;
-  user-select: none;
+  user-select:none;
 }
 .theme-chip:hover { transform: translateY(-1px); }
-.theme-chip.active { background: #6a1b9a; color: white; }
+.theme-chip.active { background:#6a1b9a; color:white; }
+/* Publications */
+.pub-card { border-left-color:#0d47a1; }
+.pub-card h3 { color:#0d47a1; }
+.pub-actions a { color:#0d47a1; font-weight:700; text-decoration:none; margin-right:12px; }
+.pub-actions a:hover { text-decoration:underline; }
 
 </style>
 </head>
@@ -427,6 +433,10 @@
     <input type="text" id="caseLawSearchInput" placeholder="🔍 Search case law by case name/number or themes…" oninput="searchCaseLaw()">
     <button class="clear-btn" id="caseLawClearBtn" onclick="clearCaseLawSearch()">✕</button>
    </div>
+   <div class="case-law-actions-row">
+    <button class="euaa-search-btn" onclick="openEUAAQuery()">🔎 Search on EUAA (query)</button>
+    <button class="euaa-search-btn" style="background:#1976d2;" onclick="openEUAAAdvancedSearch()">⚙️ EUAA Advanced Search</button>
+   </div>
    <div class="case-law-filters">
     <select id="caseLawCourtSelect" onchange="searchCaseLaw()"><option value="all">All Courts</option></select>
     <select id="caseLawCountrySelect" onchange="searchCaseLaw()"><option value="all">All Countries</option></select>
@@ -438,6 +448,25 @@
   </div>
 
   <div class="results" id="caseLawResults"></div>
+
+  <hr style="margin:30px 0; border:none; border-top:1px solid #eee;" />
+
+  <h2 style="color:#0d47a1; margin-bottom:10px;">📰 EUAA Quarterly Overview of Asylum Case Law</h2>
+  <div class="search-section">
+   <div class="search-box">
+    <input type="text" id="pubSearchInput" placeholder="🔍 Search quarterly overviews by issue, keywords, or themes…" oninput="searchPublications()">
+    <button class="clear-btn" id="pubClearBtn" onclick="clearPublicationsSearch()">✕</button>
+   </div>
+   <div class="case-law-filters">
+    <select id="pubYearSelect" onchange="searchPublications()"><option value="all">All Years</option></select>
+    <select id="pubIssueSelect" onchange="searchPublications()"><option value="all">All Issues</option></select>
+    <select id="pubThemeSelect" onchange="searchPublications()"><option value="all">All Themes</option></select>
+    <select id="pubDummySelect" disabled><option>—</option></select>
+   </div>
+   <div class="theme-chips" id="pubThemeChips"></div>
+   <div class="meta" id="pubSearchStats" style="margin-top:10px;"></div>
+  </div>
+  <div class="results" id="pubResults"></div>
  </div>
 
  <div id="caseworker-tab" class="tab-content">
@@ -791,8 +820,24 @@
         
 
 // =====================
-// EUAA CASE LAW (PDF LIBRARY)
+// EUAA CASE LAW (PDF LIBRARY) + EUAA QUERY SEARCH
 // =====================
+function openEUAAAdvancedSearch() {
+  // EUAA Case Law Database advanced search page
+  window.open('https://caselaw.euaa.europa.eu/Pages/search.aspx', '_blank');
+}
+
+function openEUAAQuery() {
+  const q = (document.getElementById('caseLawSearchInput').value || '').trim();
+  if (!q) {
+    window.open('https://caselaw.euaa.europa.eu/Pages/search.aspx', '_blank');
+    return;
+  }
+  // Keyword search results endpoint (example used by EUAA): /pages/searchresults.aspx?Keywords=...
+  const url = 'https://caselaw.euaa.europa.eu/pages/searchresults.aspx?Keywords=' + encodeURIComponent(q);
+  window.open(url, '_blank');
+}
+
 function initializeCaseLawFilters(cases) {
   const courtSelect = document.getElementById('caseLawCourtSelect');
   const countrySelect = document.getElementById('caseLawCountrySelect');
@@ -918,7 +963,7 @@ function displayCaseLaw(cases, highlight = null) {
 
     const themes = (c.themes || []).map(t => `<span class="keyword-tag">${t}</span>`).join('');
     const pdfLink = c.pdf ? `<a href="${c.pdf}" target="_blank">📄 Open PDF →</a>` : '';
-    const euaaLink = c.euaa_url ? `<a href="${c.euaa_url}" target="_blank">🔗 EUAA Case Law →</a>` : '';
+    const euaaLink = c.euaa_url ? `<a href="${c.euaa_url}" target="_blank">🔗 EUAA Case Law Entry →</a>` : '';
     const srcLink = c.source_url ? `<a href="${c.source_url}" target="_blank">⚖️ Official Source →</a>` : '';
 
     const metaBits = [];
@@ -934,6 +979,132 @@ function displayCaseLaw(cases, highlight = null) {
         ${summary ? `<div class="description">${summary}</div>` : ''}
         ${themes ? `<div style="margin-top:10px;">${themes}</div>` : ''}
         <div class="case-actions">${pdfLink}${euaaLink}${srcLink}</div>
+      </div>
+    `;
+  }).join('');
+}
+
+// =====================
+// EUAA QUARTERLY OVERVIEW PUBLICATIONS
+// =====================
+function initializePublications(pubList) {
+  const ySel = document.getElementById('pubYearSelect');
+  const iSel = document.getElementById('pubIssueSelect');
+  const tSel = document.getElementById('pubThemeSelect');
+  const chipsEl = document.getElementById('pubThemeChips');
+
+  const keepFirst = (sel) => { while (sel && sel.options.length > 1) sel.remove(1); };
+  keepFirst(ySel); keepFirst(iSel); keepFirst(tSel);
+
+  const years = [...new Set((pubList || []).map(p => (p.issue || '').split('/')[1]).filter(Boolean))].sort((a,b)=>b.localeCompare(a));
+  const issues = [...new Set((pubList || []).map(p => p.issue).filter(Boolean))].sort();
+  const themes = [...new Set((pubList || []).flatMap(p => (p.themes || [])).filter(Boolean))].sort();
+
+  years.forEach(v => { const o=document.createElement('option'); o.value=v; o.textContent=v; ySel.appendChild(o); });
+  issues.forEach(v => { const o=document.createElement('option'); o.value=v; o.textContent=v; iSel.appendChild(o); });
+  themes.forEach(v => { const o=document.createElement('option'); o.value=v; o.textContent=v; tSel.appendChild(o); });
+
+  if (chipsEl) {
+    chipsEl.innerHTML = themes.slice(0, 20).map(t => `<span class="theme-chip" data-theme="${t}" onclick="togglePubThemeChip('${t}')">${t}</span>`).join('');
+  }
+
+  displayPublications(pubList);
+}
+
+function togglePubThemeChip(theme) {
+  const sel = document.getElementById('pubThemeSelect');
+  const chipsEl = document.getElementById('pubThemeChips');
+  if (!sel) return;
+  sel.value = (sel.value === theme) ? 'all' : theme;
+  if (chipsEl) {
+    chipsEl.querySelectorAll('.theme-chip').forEach(ch => {
+      ch.classList.toggle('active', ch.getAttribute('data-theme') === sel.value);
+    });
+  }
+  searchPublications();
+}
+
+function clearPublicationsSearch() {
+  document.getElementById('pubSearchInput').value = '';
+  document.getElementById('pubClearBtn').style.display = 'none';
+  document.getElementById('pubYearSelect').value = 'all';
+  document.getElementById('pubIssueSelect').value = 'all';
+  document.getElementById('pubThemeSelect').value = 'all';
+  const chipsEl = document.getElementById('pubThemeChips');
+  if (chipsEl) chipsEl.querySelectorAll('.theme-chip').forEach(ch => ch.classList.remove('active'));
+  document.getElementById('pubSearchStats').textContent = '';
+  displayPublications(database.euaa_case_law_publications || []);
+}
+
+function searchPublications() {
+  const q = document.getElementById('pubSearchInput').value.toLowerCase().trim();
+  const y = document.getElementById('pubYearSelect').value;
+  const issue = document.getElementById('pubIssueSelect').value;
+  const theme = document.getElementById('pubThemeSelect').value;
+  const clearBtn = document.getElementById('pubClearBtn');
+  const statsEl = document.getElementById('pubSearchStats');
+
+  clearBtn.style.display = q ? 'block' : 'none';
+
+  const pubs = database.euaa_case_law_publications || [];
+  const filtered = pubs.filter(p => {
+    const year = (p.issue || '').split('/')[1] || '';
+    if (y !== 'all' && year !== y) return false;
+    if (issue !== 'all' && p.issue !== issue) return false;
+    if (theme !== 'all' && !(p.themes || []).includes(theme)) return false;
+
+    if (!q) return true;
+    const blob = `${p.title || ''} ${p.issue || ''} ${(p.themes || []).join(' ')} ${(p.keywords || []).join(' ')} ${p.period || ''}`.toLowerCase();
+    return blob.includes(q);
+  });
+
+  const filterInfo = [
+    y !== 'all' ? `Year: ${y}` : null,
+    issue !== 'all' ? `Issue: ${issue}` : null,
+    theme !== 'all' ? `Theme: ${theme}` : null
+  ].filter(Boolean).join(' • ');
+
+  if (q || filterInfo) {
+    statsEl.textContent = `Showing ${filtered.length} issue(s)` + (q ? ` matching "${q}"` : '') + (filterInfo ? ` • ${filterInfo}` : '');
+  } else {
+    statsEl.textContent = '';
+  }
+
+  displayPublications(filtered, q);
+}
+
+function displayPublications(pubs, highlight = null) {
+  const container = document.getElementById('pubResults');
+  if (!pubs || pubs.length === 0) {
+    container.innerHTML = '<div class="no-results"><h3>No quarterly overviews found</h3><p>Add items to complete_database.json → euaa_case_law_publications.</p></div>';
+    return;
+  }
+
+  container.innerHTML = pubs.map(p => {
+    let title = p.title || 'Quarterly overview';
+    let period = p.period || '';
+
+    if (highlight) {
+      const regex = new RegExp(`(${escapeRegex(highlight)})`, 'gi');
+      title = title.replace(regex, '<span class="highlight">$1</span>');
+      period = period.replace(regex, '<span class="highlight">$1</span>');
+    }
+
+    const themes = (p.themes || []).map(t => `<span class="keyword-tag">${t}</span>`).join('');
+    const metaBits = [];
+    if (p.issue) metaBits.push(`<span class="case-badge">Issue ${p.issue}</span>`);
+    if (p.date) metaBits.push(`<span class="case-badge">${p.date}</span>`);
+
+    const viewLink = p.url ? `<a href="${p.url}" target="_blank">🔗 EUAA Publication →</a>` : '';
+    const pdfLink = p.pdf_url ? `<a href="${p.pdf_url}" target="_blank">📄 Download PDF →</a>` : '';
+
+    return `
+      <div class="case-card pub-card">
+        <div class="case-meta-row">${metaBits.join('')}</div>
+        <h3>${title}</h3>
+        ${period ? `<div class="meta">Period: ${period}</div>` : ''}
+        ${themes ? `<div style="margin-top:10px;">${themes}</div>` : ''}
+        <div class="pub-actions">${viewLink}${pdfLink}</div>
       </div>
     `;
   }).join('');
