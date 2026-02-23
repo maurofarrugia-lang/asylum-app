@@ -135,12 +135,44 @@
             color: #0d47a1;
         }
     
-        /* Simple article styling - all bold pink */
-        #caseworkerResults li {
+        /* Article titles only - bold pink */
+        #caseworkerResults li.article-item {
             color: #e91e63;
             font-weight: bold;
         }
-    </style>
+    
+        /* Jumping Spider */
+        .spider {
+            position: fixed;
+            bottom: 20px;
+            right: 20px;
+            font-size: 48px;
+            cursor: pointer;
+            animation: spider-jump 3s ease-in-out infinite;
+            z-index: 1000;
+            transition: transform 0.3s ease;
+        }
+        
+        .spider:hover {
+            transform: scale(1.5) rotate(10deg);
+            animation: none;
+        }
+        
+        @keyframes spider-jump {
+            0%, 100% {
+                transform: translateY(0) rotate(0deg);
+            }
+            25% {
+                transform: translateY(-20px) rotate(-5deg);
+            }
+            50% {
+                transform: translateY(0) rotate(0deg);
+            }
+            75% {
+                transform: translateY(-10px) rotate(5deg);
+            }
+        }
+</style>
 </head>
 <body>
     <div class="container">
@@ -495,7 +527,8 @@
                                             displayItem = '<a href="' + artLink + '" target="_blank" class="article-link" title="Open Article ' + artNum + ' in EUR-Lex">📖</a> ' + displayItem;
                                         }
                                         
-                                        return '<li>' + displayItem + '</li>';
+                                        const itemClass = item.startsWith('Art ') ? ' class="article-item"' : '';
+                                        return '<li' + itemClass + '>' + displayItem + '</li>';
                                     }).join('')}
                                 </ul>
                                 ${subsec.related_guidelines && subsec.related_guidelines.length > 0 ? `
@@ -522,5 +555,8 @@
 
         window.addEventListener('DOMContentLoaded', loadDatabase);
     </script>
+
+    <!-- Jumping Spider Easter Egg -->
+    <div class="spider" title="Jumping Spider 🕷️">🕷️</div>
 </body>
 </html>
