@@ -1,16 +1,13 @@
-# Package Manifest (Case Law Enabled)
+# Package Manifest (Case Law Enabled v2)
 
-This package is ready to upload to GitHub Pages.
+## What’s new in v2
+- Case Law cards include **EUAA Case Law** button when `euaa_url` is provided.
+- Search works on **case name/number AND themes**.
+- Added **Theme filter** dropdown + clickable theme chips.
 
-## Key files
-- `index.html` (main app)
-- `complete_database.json` (data + case_law section)
-- `case-law-pdfs/` (store your PDFs here)
-
-## Quick test after upload
+## Quick test
 1. Open the site.
-2. Click **📚⚖️ EUAA Case Law** tab.
-3. You should see a **Sample Case Law** card.
-4. Click **Open PDF** to verify PDF hosting works.
-
-If you do not see the tab, hard refresh: Ctrl+Shift+R.
+2. Go to **📚⚖️ EUAA Case Law** tab.
+3. Use theme chips (e.g., Credibility / Detention) to filter.
+4. Click **🔗 EUAA Case Law →** to open the EUAA database.
+5. Click **📄 Open PDF →** to open the hosted PDF.

@@ -2074,7 +2074,7 @@
         "Credibility",
         "Detention"
       ],
-      "summary": "This is a placeholder PDF included so you can confirm the Case Law tab, search, filters, and PDF linking work on GitHub Pages.",
+      "summary": "Placeholder PDF to test Case Law tab, EUAA link, theme search and filters.",
       "pdf": "case-law-pdfs/2024/SAMPLE_CaseLaw.pdf",
       "euaa_url": "https://caselaw.euaa.europa.eu",
       "source_url": ""
