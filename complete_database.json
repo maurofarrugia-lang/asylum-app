@@ -2082,49 +2082,407 @@
   ],
   "euaa_case_law_publications": [
     {
-      "id": "QOACL_2025_1",
-      "title": "Quarterly Overview of Asylum Case Law, Issue No 1/2025",
-      "issue": "1/2025",
-      "date": "17 March 2025",
-      "period": "Dec 2024 – Feb 2025",
-      "url": "https://www.euaa.europa.eu/publications/quarterly-overview-asylum-case-law-issue-no-12025",
-      "pdf_url": "https://www.euaa.europa.eu/sites/default/files/publications/2025-03/2025_EUAA_Quarterly_Overview_Asylum_Case_Law_Issue1_EN.pdf",
+      "id": "QOACL_2020_1",
+      "title": "Newsletter on Asylum Case Law, Issue No 1/2020",
+      "issue": "1/2020",
+      "date": "15 December 2020",
+      "period": "Sep–Nov 2020",
+      "url": "https://www.euaa.europa.eu/publications/newsletter-asylum-case-law-issue-no-12020",
+      "pdf_url": "https://www.euaa.europa.eu/sites/default/files/publications/EASO_Case_Law_Newsletter_Issue1_2020_December2.pdf",
       "themes": [
-        "Access to procedure",
-        "Dublin",
-        "First instance",
+        "Access to the asylum procedure",
+        "Dublin procedure",
+        "First instance procedures",
+        "Second instance procedures",
+        "Assessment of applications",
         "Reception",
         "Detention",
+        "Vulnerable groups",
         "Temporary protection",
-        "Return"
+        "Return",
+        "Country of origin information",
+        "Effective remedy"
       ],
       "keywords": [
-        "asylum",
-        "international protection",
         "case law",
-        "jurisprudence",
-        "courts"
+        "EUAA"
       ]
     },
     {
-      "id": "QOACL_2025_3",
-      "title": "Quarterly Overview of Asylum Case Law, Issue No 3/2025",
-      "issue": "3/2025",
-      "date": "September 2025",
-      "period": "(see PDF)",
-      "url": "https://www.euaa.europa.eu/sites/default/files/publications/2025-09/2025_EUAA_Quarterly_Overview_Asylum_Case_Law_Issue3_EN.pdf",
-      "pdf_url": "https://www.euaa.europa.eu/sites/default/files/publications/2025-09/2025_EUAA_Quarterly_Overview_Asylum_Case_Law_Issue3_EN.pdf",
+      "id": "QOACL_2020_A",
+      "title": "Asylum Case Law in 2020 (annual compilation)",
+      "issue": "0/2020",
+      "date": "18 May 2021",
+      "period": "Jan–Dec 2020",
+      "url": "https://www.euaa.europa.eu/publications/asylum-case-law-2020",
+      "pdf_url": "https://www.euaa.europa.eu/sites/default/files/publications/Overview_of_asylum_case_law-2020-FINAL.pdf",
       "themes": [
-        "Access to procedure",
-        "Dublin",
-        "First instance",
-        "Country of origin",
-        "Vulnerability",
-        "Trafficking"
+        "Access to the asylum procedure",
+        "Dublin procedure",
+        "First instance procedures",
+        "Second instance procedures",
+        "Assessment of applications",
+        "Reception",
+        "Detention",
+        "Vulnerable groups",
+        "Temporary protection",
+        "Return",
+        "Country of origin information",
+        "Effective remedy"
       ],
       "keywords": [
         "case law",
-        "quarterly overview",
+        "EUAA"
+      ]
+    },
+    {
+      "id": "QOACL_2021_1",
+      "title": "Newsletter on Asylum Case Law, Issue No 1/2021",
+      "issue": "1/2021",
+      "date": "15 March 2021",
+      "period": "Dec 2020–Feb 2021",
+      "url": "https://www.euaa.europa.eu/publications/newsletter-asylum-case-law-issue-no-12021",
+      "pdf_url": "https://www.euaa.europa.eu/sites/default/files/publications/EASONewslette-on-Asylum-Case-Law_Issue-1-2021.pdf",
+      "themes": [
+        "Access to the asylum procedure",
+        "Dublin procedure",
+        "First instance procedures",
+        "Second instance procedures",
+        "Assessment of applications",
+        "Reception",
+        "Detention",
+        "Vulnerable groups",
+        "Temporary protection",
+        "Return",
+        "Country of origin information",
+        "Effective remedy"
+      ],
+      "keywords": [
+        "case law",
+        "EUAA"
+      ]
+    },
+    {
+      "id": "QOACL_2021_2",
+      "title": "Newsletter on Asylum Case Law, Issue No 2/2021",
+      "issue": "2/2021",
+      "date": "",
+      "period": "Mar–May 2021",
+      "url": "https://www.euaa.europa.eu/sites/default/files/publications/EASO-Newsletter-on-Asylum-Case-Law-Issue-2-2021.pdf",
+      "pdf_url": "https://www.euaa.europa.eu/sites/default/files/publications/EASO-Newsletter-on-Asylum-Case-Law-Issue-2-2021.pdf",
+      "themes": [
+        "Access to the asylum procedure",
+        "Dublin procedure",
+        "First instance procedures",
+        "Second instance procedures",
+        "Assessment of applications",
+        "Reception",
+        "Detention",
+        "Vulnerable groups",
+        "Temporary protection",
+        "Return",
+        "Country of origin information",
+        "Effective remedy"
+      ],
+      "keywords": [
+        "case law",
+        "EUAA"
+      ]
+    },
+    {
+      "id": "QOACL_2021_3",
+      "title": "Newsletter on Asylum Case Law, Issue No 3/2021",
+      "issue": "3/2021",
+      "date": "September 2021",
+      "period": "Jun–Aug 2021",
+      "url": "https://www.euaa.europa.eu/sites/default/files/publications/EASO_Newsletter_on_Asylum_Case_Law-Issue3-2021.pdf",
+      "pdf_url": "https://www.euaa.europa.eu/sites/default/files/publications/EASO_Newsletter_on_Asylum_Case_Law-Issue3-2021.pdf",
+      "themes": [
+        "Access to the asylum procedure",
+        "Dublin procedure",
+        "First instance procedures",
+        "Second instance procedures",
+        "Assessment of applications",
+        "Reception",
+        "Detention",
+        "Vulnerable groups",
+        "Temporary protection",
+        "Return",
+        "Country of origin information",
+        "Effective remedy"
+      ],
+      "keywords": [
+        "case law",
+        "EUAA"
+      ]
+    },
+    {
+      "id": "QOACL_2021_4",
+      "title": "Newsletter on Asylum Case Law, Issue No 4/2021",
+      "issue": "4/2021",
+      "date": "December 2021",
+      "period": "Sep–Nov 2021",
+      "url": "https://euaa.europa.eu/sites/default/files/publications/2021_EASO_Newsletter_Asylum_Case_Law_Issue_4.pdf",
+      "pdf_url": "https://euaa.europa.eu/sites/default/files/publications/2021_EASO_Newsletter_Asylum_Case_Law_Issue_4.pdf",
+      "themes": [
+        "Access to the asylum procedure",
+        "Dublin procedure",
+        "First instance procedures",
+        "Second instance procedures",
+        "Assessment of applications",
+        "Reception",
+        "Detention",
+        "Vulnerable groups",
+        "Temporary protection",
+        "Return",
+        "Country of origin information",
+        "Effective remedy"
+      ],
+      "keywords": [
+        "case law",
+        "EUAA"
+      ]
+    },
+    {
+      "id": "QOACL_2022_1",
+      "title": "Quarterly Overview of Asylum Case Law, Issue No 1/2022",
+      "issue": "1/2022",
+      "date": "15 March 2022",
+      "period": "Dec 2021–Feb 2022",
+      "url": "https://www.euaa.europa.eu/publications/quarterly-overview-asylum-case-law-issue-no-12022",
+      "pdf_url": "https://www.euaa.europa.eu/sites/default/files/publications/2022-03/2022_EUAA_Quarterly_Overview_Asylum_Case_Law_Issue1_EN.pdf",
+      "themes": [
+        "Access to the asylum procedure",
+        "Dublin procedure",
+        "First instance procedures",
+        "Second instance procedures",
+        "Assessment of applications",
+        "Reception",
+        "Detention",
+        "Vulnerable groups",
+        "Temporary protection",
+        "Return",
+        "Country of origin information",
+        "Effective remedy"
+      ],
+      "keywords": [
+        "case law",
+        "EUAA"
+      ]
+    },
+    {
+      "id": "QOACL_2022_2",
+      "title": "Quarterly Overview of Asylum Case Law, Issue No 2/2022",
+      "issue": "2/2022",
+      "date": "15 June 2022",
+      "period": "Mar–May 2022",
+      "url": "https://www.euaa.europa.eu/publications/quarterly-overview-asylum-case-law-issue-no-22022",
+      "pdf_url": "https://www.euaa.europa.eu/sites/default/files/publications/2022-06/2022_EUAA_Quarterly_Overview_Asylum_Case_Law_Issue2_EN.pdf",
+      "themes": [
+        "Access to the asylum procedure",
+        "Dublin procedure",
+        "First instance procedures",
+        "Second instance procedures",
+        "Assessment of applications",
+        "Reception",
+        "Detention",
+        "Vulnerable groups",
+        "Temporary protection",
+        "Return",
+        "Country of origin information",
+        "Effective remedy"
+      ],
+      "keywords": [
+        "case law",
+        "EUAA"
+      ]
+    },
+    {
+      "id": "QOACL_2022_3",
+      "title": "Quarterly Overview of Asylum Case Law, Issue No 3/2022",
+      "issue": "3/2022",
+      "date": "15 September 2022",
+      "period": "Jun–Aug 2022",
+      "url": "https://www.euaa.europa.eu/publications/quarterly-overview-asylum-case-law-issue-no-32022",
+      "pdf_url": "https://www.euaa.europa.eu/sites/default/files/publications/2022-09/2022_EUAA_Quarterly_Overview_Asylum_Case_Law_Issue3_EN.pdf",
+      "themes": [
+        "Access to the asylum procedure",
+        "Dublin procedure",
+        "First instance procedures",
+        "Second instance procedures",
+        "Assessment of applications",
+        "Reception",
+        "Detention",
+        "Vulnerable groups",
+        "Temporary protection",
+        "Return",
+        "Country of origin information",
+        "Effective remedy"
+      ],
+      "keywords": [
+        "case law",
+        "EUAA"
+      ]
+    },
+    {
+      "id": "QOACL_2022_4",
+      "title": "Quarterly Overview of Asylum Case Law, Issue No 4/2022",
+      "issue": "4/2022",
+      "date": "15 December 2022",
+      "period": "Sep–Nov 2022",
+      "url": "https://www.euaa.europa.eu/publications/quarterly-overview-asylum-case-law-issue-no-42022",
+      "pdf_url": "https://www.euaa.europa.eu/sites/default/files/publications/2022-12/2022_EUAA_Quarterly_Overview_Asylum_Case_Law_Issue4_EN.pdf",
+      "themes": [
+        "Access to the asylum procedure",
+        "Dublin procedure",
+        "First instance procedures",
+        "Second instance procedures",
+        "Assessment of applications",
+        "Reception",
+        "Detention",
+        "Vulnerable groups",
+        "Temporary protection",
+        "Return",
+        "Country of origin information",
+        "Effective remedy"
+      ],
+      "keywords": [
+        "case law",
+        "EUAA"
+      ]
+    },
+    {
+      "id": "QOACL_2023_1",
+      "title": "Quarterly Overview of Asylum Case Law, Issue No 1/2023",
+      "issue": "1/2023",
+      "date": "15 March 2023",
+      "period": "Dec 2022–Feb 2023",
+      "url": "https://www.euaa.europa.eu/publications/quarterly-overview-asylum-case-law-issue-no-12023",
+      "pdf_url": "https://www.euaa.europa.eu/sites/default/files/publications/2023-03/2023_EUAA_Quarterly_Overview_Asylum_Case_Law_Issue1_EN.pdf",
+      "themes": [
+        "Access to the asylum procedure",
+        "Dublin procedure",
+        "First instance procedures",
+        "Second instance procedures",
+        "Assessment of applications",
+        "Reception",
+        "Detention",
+        "Vulnerable groups",
+        "Temporary protection",
+        "Return",
+        "Country of origin information",
+        "Effective remedy"
+      ],
+      "keywords": [
+        "case law",
+        "EUAA"
+      ]
+    },
+    {
+      "id": "QOACL_2023_2",
+      "title": "Quarterly Overview of Asylum Case Law, Issue No 2/2023",
+      "issue": "2/2023",
+      "date": "15 June 2023",
+      "period": "Mar–May 2023",
+      "url": "https://www.euaa.europa.eu/publications/quarterly-overview-asylum-case-law-0",
+      "pdf_url": "https://www.euaa.europa.eu/sites/default/files/publications/2023-06/2023_EUAA_Quarterly_Overview_Asylum_Case_Law_Issue2_EN.pdf",
+      "themes": [
+        "Access to the asylum procedure",
+        "Dublin procedure",
+        "First instance procedures",
+        "Second instance procedures",
+        "Assessment of applications",
+        "Reception",
+        "Detention",
+        "Vulnerable groups",
+        "Temporary protection",
+        "Return",
+        "Country of origin information",
+        "Effective remedy"
+      ],
+      "keywords": [
+        "case law",
+        "EUAA"
+      ]
+    },
+    {
+      "id": "QOACL_2023_3",
+      "title": "Quarterly Overview of Asylum Case Law, Issue No 3/2023",
+      "issue": "3/2023",
+      "date": "September 2023",
+      "period": "Jun–Aug 2023",
+      "url": "https://www.euaa.europa.eu/sites/default/files/publications/2023-09/2023_EUAA_Quarterly_Overview_Asylum_Case_Law_Issue3_EN.pdf",
+      "pdf_url": "https://www.euaa.europa.eu/sites/default/files/publications/2023-09/2023_EUAA_Quarterly_Overview_Asylum_Case_Law_Issue3_EN.pdf",
+      "themes": [
+        "Access to the asylum procedure",
+        "Dublin procedure",
+        "First instance procedures",
+        "Second instance procedures",
+        "Assessment of applications",
+        "Reception",
+        "Detention",
+        "Vulnerable groups",
+        "Temporary protection",
+        "Return",
+        "Country of origin information",
+        "Effective remedy"
+      ],
+      "keywords": [
+        "case law",
+        "EUAA"
+      ]
+    },
+    {
+      "id": "QOACL_2023_4",
+      "title": "Quarterly Overview of Asylum Case Law, Issue No 4/2023",
+      "issue": "4/2023",
+      "date": "15 December 2023",
+      "period": "Sep–Nov 2023",
+      "url": "https://www.euaa.europa.eu/publications/quarterly-overview-asylum-case-law-2",
+      "pdf_url": "https://www.euaa.europa.eu/sites/default/files/publications/2023-12/2023_EUAA_Quarterly_Overview_Asylum_Case_Law_Issue4_EN.pdf",
+      "themes": [
+        "Access to the asylum procedure",
+        "Dublin procedure",
+        "First instance procedures",
+        "Second instance procedures",
+        "Assessment of applications",
+        "Reception",
+        "Detention",
+        "Vulnerable groups",
+        "Temporary protection",
+        "Return",
+        "Country of origin information",
+        "Effective remedy"
+      ],
+      "keywords": [
+        "case law",
+        "EUAA"
+      ]
+    },
+    {
+      "id": "QOACL_2024_1",
+      "title": "Quarterly Overview of Asylum Case Law, Issue No 1/2024",
+      "issue": "1/2024",
+      "date": "15 March 2024",
+      "period": "Dec 2023–Feb 2024",
+      "url": "https://www.euaa.europa.eu/publications/quarterly-overview-asylum-case-law-3",
+      "pdf_url": "https://www.euaa.europa.eu/sites/default/files/publications/2024-03/2024_EUAA_Quarterly_Overview_Asylum_Case_Law_Issue1_EN.pdf",
+      "themes": [
+        "Access to the asylum procedure",
+        "Dublin procedure",
+        "First instance procedures",
+        "Second instance procedures",
+        "Assessment of applications",
+        "Reception",
+        "Detention",
+        "Vulnerable groups",
+        "Temporary protection",
+        "Return",
+        "Country of origin information",
+        "Effective remedy"
+      ],
+      "keywords": [
+        "case law",
         "EUAA"
       ]
     },
@@ -2133,18 +2491,295 @@
       "title": "Quarterly Overview of Asylum Case Law, Issue No 2/2024",
       "issue": "2/2024",
       "date": "June 2024",
-      "period": "(see PDF)",
+      "period": "Mar–May 2024",
       "url": "https://www.euaa.europa.eu/sites/default/files/publications/2024-06/2024_EUAA_Quarterly_Overview_Asylum_Case_Law_Issue2_EN.pdf",
       "pdf_url": "https://www.euaa.europa.eu/sites/default/files/publications/2024-06/2024_EUAA_Quarterly_Overview_Asylum_Case_Law_Issue2_EN.pdf",
       "themes": [
-        "Collective expulsion",
-        "Dublin",
+        "Access to the asylum procedure",
+        "Dublin procedure",
+        "First instance procedures",
+        "Second instance procedures",
+        "Assessment of applications",
         "Reception",
-        "Detention"
+        "Detention",
+        "Vulnerable groups",
+        "Temporary protection",
+        "Return",
+        "Country of origin information",
+        "Effective remedy"
       ],
       "keywords": [
         "case law",
-        "quarterly overview",
+        "EUAA"
+      ]
+    },
+    {
+      "id": "QOACL_2024_3",
+      "title": "Quarterly Overview of Asylum Case Law, Issue No 3/2024",
+      "issue": "3/2024",
+      "date": "September 2024",
+      "period": "Jun–Aug 2024",
+      "url": "https://www.euaa.europa.eu/sites/default/files/publications/2024-09/2024_EUAA_Quarterly_Overview_Asylum_Case_Law_Issue3_EN_2.pdf",
+      "pdf_url": "https://www.euaa.europa.eu/sites/default/files/publications/2024-09/2024_EUAA_Quarterly_Overview_Asylum_Case_Law_Issue3_EN_2.pdf",
+      "themes": [
+        "Access to the asylum procedure",
+        "Dublin procedure",
+        "First instance procedures",
+        "Second instance procedures",
+        "Assessment of applications",
+        "Reception",
+        "Detention",
+        "Vulnerable groups",
+        "Temporary protection",
+        "Return",
+        "Country of origin information",
+        "Effective remedy"
+      ],
+      "keywords": [
+        "case law",
+        "EUAA"
+      ]
+    },
+    {
+      "id": "QOACL_2024_4",
+      "title": "Quarterly Overview of Asylum Case Law, Issue No 4/2024",
+      "issue": "4/2024",
+      "date": "17 December 2024",
+      "period": "Sep–Nov 2024",
+      "url": "https://www.euaa.europa.eu/publications/quarterly-overview-asylum-case-law-6",
+      "pdf_url": "https://www.euaa.europa.eu/sites/default/files/publications/2024-12/2024_EUAA_Quarterly_Overview_Asylum_Case_Law_Issue4_EN.pdf",
+      "themes": [
+        "Access to the asylum procedure",
+        "Dublin procedure",
+        "First instance procedures",
+        "Second instance procedures",
+        "Assessment of applications",
+        "Reception",
+        "Detention",
+        "Vulnerable groups",
+        "Temporary protection",
+        "Return",
+        "Country of origin information",
+        "Effective remedy"
+      ],
+      "keywords": [
+        "case law",
+        "EUAA"
+      ]
+    },
+    {
+      "id": "QOACL_2025_1",
+      "title": "Quarterly Overview of Asylum Case Law, Issue No 1/2025",
+      "issue": "1/2025",
+      "date": "17 March 2025",
+      "period": "Dec 2024–Feb 2025",
+      "url": "https://www.euaa.europa.eu/publications/quarterly-overview-asylum-case-law-issue-no-12025",
+      "pdf_url": "https://www.euaa.europa.eu/sites/default/files/publications/2025-03/2025_EUAA_Quarterly_Overview_Asylum_Case_Law_Issue1_EN.pdf",
+      "themes": [
+        "Access to the asylum procedure",
+        "Dublin procedure",
+        "First instance procedures",
+        "Second instance procedures",
+        "Assessment of applications",
+        "Reception",
+        "Detention",
+        "Vulnerable groups",
+        "Temporary protection",
+        "Return",
+        "Country of origin information",
+        "Effective remedy"
+      ],
+      "keywords": [
+        "case law",
+        "EUAA"
+      ]
+    },
+    {
+      "id": "QOACL_2025_2",
+      "title": "Quarterly Overview of Asylum Case Law, Issue No 2/2025",
+      "issue": "2/2025",
+      "date": "June 2025",
+      "period": "Mar–May 2025",
+      "url": "https://www.euaa.europa.eu/publications/quarterly-overview-asylum-case-law",
+      "pdf_url": "https://www.euaa.europa.eu/sites/default/files/publications/2025-06/2025_EUAA_Quarterly_Overview_Asylum_Case_Law_Issue2_EN.pdf",
+      "themes": [
+        "Access to the asylum procedure",
+        "Dublin procedure",
+        "First instance procedures",
+        "Second instance procedures",
+        "Assessment of applications",
+        "Reception",
+        "Detention",
+        "Vulnerable groups",
+        "Temporary protection",
+        "Return",
+        "Country of origin information",
+        "Effective remedy"
+      ],
+      "keywords": [
+        "case law",
+        "EUAA"
+      ]
+    },
+    {
+      "id": "QOACL_2025_3",
+      "title": "Quarterly Overview of Asylum Case Law, Issue No 3/2025",
+      "issue": "3/2025",
+      "date": "September 2025",
+      "period": "Jun–Aug 2025",
+      "url": "https://www.euaa.europa.eu/sites/default/files/publications/2025-09/2025_EUAA_Quarterly_Overview_Asylum_Case_Law_Issue3_EN.pdf",
+      "pdf_url": "https://www.euaa.europa.eu/sites/default/files/publications/2025-09/2025_EUAA_Quarterly_Overview_Asylum_Case_Law_Issue3_EN.pdf",
+      "themes": [
+        "Access to the asylum procedure",
+        "Dublin procedure",
+        "First instance procedures",
+        "Second instance procedures",
+        "Assessment of applications",
+        "Reception",
+        "Detention",
+        "Vulnerable groups",
+        "Temporary protection",
+        "Return",
+        "Country of origin information",
+        "Effective remedy"
+      ],
+      "keywords": [
+        "case law",
+        "EUAA"
+      ]
+    },
+    {
+      "id": "QOACL_2025_4",
+      "title": "Quarterly Overview of Asylum Case Law, Issue No 4/2025",
+      "issue": "4/2025",
+      "date": "December 2025",
+      "period": "Sep–Nov 2025",
+      "url": "https://www.euaa.europa.eu/sites/default/files/publications/2025-12/2025_EUAA_Quarterly_Overview_Asylum_Case_Law_Issue4_EN.pdf",
+      "pdf_url": "https://www.euaa.europa.eu/sites/default/files/publications/2025-12/2025_EUAA_Quarterly_Overview_Asylum_Case_Law_Issue4_EN.pdf",
+      "themes": [
+        "Access to the asylum procedure",
+        "Dublin procedure",
+        "First instance procedures",
+        "Second instance procedures",
+        "Assessment of applications",
+        "Reception",
+        "Detention",
+        "Vulnerable groups",
+        "Temporary protection",
+        "Return",
+        "Country of origin information",
+        "Effective remedy"
+      ],
+      "keywords": [
+        "case law",
+        "EUAA"
+      ]
+    },
+    {
+      "id": "QOACL_2026_1",
+      "title": "Quarterly Overview of Asylum Case Law, Issue No 1/2026 (placeholder)",
+      "issue": "1/2026",
+      "date": "",
+      "period": "",
+      "url": "https://www.euaa.europa.eu/publications/quarterly-overview-asylum-case-law",
+      "pdf_url": "",
+      "themes": [
+        "Access to the asylum procedure",
+        "Dublin procedure",
+        "First instance procedures",
+        "Second instance procedures",
+        "Assessment of applications",
+        "Reception",
+        "Detention",
+        "Vulnerable groups",
+        "Temporary protection",
+        "Return",
+        "Country of origin information",
+        "Effective remedy"
+      ],
+      "keywords": [
+        "case law",
+        "EUAA"
+      ]
+    },
+    {
+      "id": "QOACL_2026_2",
+      "title": "Quarterly Overview of Asylum Case Law, Issue No 2/2026 (placeholder)",
+      "issue": "2/2026",
+      "date": "",
+      "period": "",
+      "url": "https://www.euaa.europa.eu/publications/quarterly-overview-asylum-case-law",
+      "pdf_url": "",
+      "themes": [
+        "Access to the asylum procedure",
+        "Dublin procedure",
+        "First instance procedures",
+        "Second instance procedures",
+        "Assessment of applications",
+        "Reception",
+        "Detention",
+        "Vulnerable groups",
+        "Temporary protection",
+        "Return",
+        "Country of origin information",
+        "Effective remedy"
+      ],
+      "keywords": [
+        "case law",
+        "EUAA"
+      ]
+    },
+    {
+      "id": "QOACL_2026_3",
+      "title": "Quarterly Overview of Asylum Case Law, Issue No 3/2026 (placeholder)",
+      "issue": "3/2026",
+      "date": "",
+      "period": "",
+      "url": "https://www.euaa.europa.eu/publications/quarterly-overview-asylum-case-law",
+      "pdf_url": "",
+      "themes": [
+        "Access to the asylum procedure",
+        "Dublin procedure",
+        "First instance procedures",
+        "Second instance procedures",
+        "Assessment of applications",
+        "Reception",
+        "Detention",
+        "Vulnerable groups",
+        "Temporary protection",
+        "Return",
+        "Country of origin information",
+        "Effective remedy"
+      ],
+      "keywords": [
+        "case law",
+        "EUAA"
+      ]
+    },
+    {
+      "id": "QOACL_2026_4",
+      "title": "Quarterly Overview of Asylum Case Law, Issue No 4/2026 (placeholder)",
+      "issue": "4/2026",
+      "date": "",
+      "period": "",
+      "url": "https://www.euaa.europa.eu/publications/quarterly-overview-asylum-case-law",
+      "pdf_url": "",
+      "themes": [
+        "Access to the asylum procedure",
+        "Dublin procedure",
+        "First instance procedures",
+        "Second instance procedures",
+        "Assessment of applications",
+        "Reception",
+        "Detention",
+        "Vulnerable groups",
+        "Temporary protection",
+        "Return",
+        "Country of origin information",
+        "Effective remedy"
+      ],
+      "keywords": [
+        "case law",
         "EUAA"
       ]
     }

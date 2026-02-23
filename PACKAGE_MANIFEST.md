@@ -13,6 +13,3 @@
 2. Go to **📚⚖️ EUAA Case Law**.
 3. Type a query (e.g., detention) and click **🔎 Search on EUAA (query)**.
 4. Scroll to **📰 EUAA Quarterly Overview** and search by themes.
-
-
-✅ v4 FINAL built
