@@ -613,12 +613,24 @@
                                         if (item.startsWith('Art ')) {
                                             const colonIndex = item.indexOf(':');
                                             if (colonIndex !== -1) {
-                                                const rest = item.substring(colonIndex + 1).trim();
-                                                const openParen = rest.indexOf('(');
-                                                if (openParen !== -1) {
-                                                    const closeParen = rest.lastIndexOf(')');
-                                                    const numberTitle = item.substring(0, colonIndex + 1) + ' ' + rest.substring(0, openParen).trim();
-                                                    const detail = rest.substring(openParen + 1, closeParen).trim();
+                                                const afterColon = item.substring(colonIndex + 1).trim();
+                                                const firstParen = afterColon.indexOf('(');
+                                                if (firstParen !== -1) {
+                                                    // Find matching closing paren (handle nested parens)
+                                                    let parenCount = 0;
+                                                    let closeParen = -1;
+                                                    for (let i = firstParen; i < afterColon.length; i++) {
+                                                        if (afterColon[i] === '(') parenCount++;
+                                                        if (afterColon[i] === ')') {
+                                                            parenCount--;
+                                                            if (parenCount === 0) {
+                                                                closeParen = i;
+                                                                break;
+                                                            }
+                                                        }
+                                                    }
+                                                    const numberTitle = item.substring(0, colonIndex + 1) + ' ' + afterColon.substring(0, firstParen).trim();
+                                                    const detail = afterColon.substring(firstParen + 1, closeParen).trim();
                                                     displayItem = '<span class="article-number-title">' + numberTitle + '</span> <span class="article-detail">' + detail + '</span>';
                                                 } else {
                                                     displayItem = '<span class="article-number-title">' + item + '</span>';
