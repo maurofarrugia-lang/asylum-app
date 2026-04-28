@@ -1,95 +1,347 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Comprehensive Repository Asylum Pact - IPA</title>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+<title>Comprehensive Repository – Asylum Pact (IPA)</title>
 
 <style>
-/* ===================== */
-/* BASE STYLES */
-/* ===================== */
-* { margin: 0; padding: 0; box-sizing: border-box; }
+/* =========================
+   BASE
+========================= */
+* { box-sizing: border-box; margin: 0; padding: 0; }
 
 body {
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
-    background: linear-gradient(135deg, #e3f2fd 0%, #bbdefb 100%);
-    padding: 20px;
-    min-height: 100vh;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  background: linear-gradient(135deg, #e3f2fd, #bbdefb);
+  padding: 20px;
 }
 
-/* --- layout, tabs, cards, search, stats --- */
-/* (UNCHANGED – kept exactly as in your original file) */
+/* =========================
+   LAYOUT
+========================= */
+.container {
+  max-width: 1200px;
+  margin: auto;
+  background: #fff;
+  border-radius: 18px;
+  overflow: hidden;
+  box-shadow: 0 10px 40px rgba(33,150,243,.25);
+}
 
-/* 🔴 NOTE:
-   All spider & mouse CSS animations and classes
-   have been intentionally removed.
-*/
+.header {
+  background: linear-gradient(135deg, #2196f3, #1976d2);
+  color: #fff;
+  padding: 30px;
+  text-align: center;
+}
 
-/* Case law, publications, articles styling */
-/* (UNCHANGED) */
+.header h1 { font-size: 2em; margin-bottom: 6px; }
+.header p { opacity: .95; }
 
+/* =========================
+   TABS
+========================= */
+.tab-nav {
+  display: flex;
+  background: #f5f5f5;
+  border-bottom: 2px solid #e0e0e0;
+  flex-wrap: wrap;
+}
+
+.tab-button {
+  flex: 1;
+  min-width: 150px;
+  padding: 14px;
+  border: none;
+  background: none;
+  cursor: pointer;
+  font-weight: 700;
+  color: #555;
+}
+
+.tab-button.active {
+  color: #2196f3;
+  background: #fff;
+  border-bottom: 3px solid #2196f3;
+}
+
+.tab-content {
+  display: none;
+  padding: 25px;
+}
+
+.tab-content.active {
+  display: block;
+}
+
+/* =========================
+   STATS
+========================= */
+.stats-panel {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px,1fr));
+  gap: 16px;
+  margin-bottom: 25px;
+}
+
+.stat-card {
+  background: linear-gradient(135deg, #2196f3, #1976d2);
+  color: #fff;
+  padding: 20px;
+  border-radius: 12px;
+  text-align: center;
+}
+
+.stat-card h3 { font-size: 2em; }
+
+/* =========================
+   SEARCH
+========================= */
+.search-box {
+  position: relative;
+  margin-bottom: 20px;
+}
+
+.search-box input {
+  width: 100%;
+  padding: 14px 18px;
+  font-size: 1em;
+  border-radius: 10px;
+  border: 2px solid #e0e0e0;
+}
+
+.search-box input:focus {
+  outline: none;
+  border-color: #2196f3;
+}
+
+/* =========================
+   CARDS
+========================= */
+.card {
+  background: #f8f9fa;
+  border-left: 4px solid #2196f3;
+  border-radius: 10px;
+  padding: 18px;
+  margin-bottom: 15px;
+}
+
+.card h3 {
+  color: #1976d2;
+  margin-bottom: 6px;
+}
+
+.badge {
+  display: inline-block;
+  background: #e3f2fd;
+  color: #1976d2;
+  padding: 4px 10px;
+  border-radius: 14px;
+  font-size: .8em;
+  font-weight: 700;
+  margin-bottom: 8px;
+}
+
+.meta {
+  color: #555;
+  font-size: .9em;
+  margin: 6px 0;
+}
+
+.keywords span {
+  display: inline-block;
+  background: #bbdefb;
+  color: #0d47a1;
+  padding: 4px 8px;
+  border-radius: 10px;
+  font-size: .8em;
+  margin: 3px;
+}
+
+a.link {
+  font-weight: 700;
+  color: #1976d2;
+  text-decoration: none;
+}
+
+a.link:hover {
+  text-decoration: underline;
+}
+
+.no-results {
+  text-align: center;
+  padding: 40px;
+  color: #777;
+}
+
+/* =========================
+   RESPONSIVE
+========================= */
+@media(max-width: 768px) {
+  .header h1 { font-size: 1.5em; }
+}
 </style>
 </head>
 
 <body>
-
 <div class="container">
-    <div class="header">
-        <h1>📚Comprehensive Repository Asylum Pact - IPA</h1>
-        <p>Making asylum law actually understandable!</p>
+
+  <div class="header">
+    <h1>📚 Comprehensive Repository – Asylum Pact</h1>
+    <p>International Protection Agency (IPA)</p>
+  </div>
+
+  <div class="tab-nav">
+    <button class="tab-button active" onclick="switchTab('regs')">📋 Regulations</button>
+    <button class="tab-button" onclick="switchTab('defs')">📖 Definitions</button>
+    <button class="tab-button" onclick="switchTab('guides')">🔍 EUAA Guidelines</button>
+    <button class="tab-button" onclick="switchTab('cases')">⚖️ EUAA Case Law</button>
+    <button class="tab-button" onclick="switchTab('index')">🧭 Caseworker Index</button>
+  </div>
+
+  <!-- REGULATIONS -->
+  <div id="regs" class="tab-content active">
+    <div class="search-box">
+      <input id="regSearch" placeholder="Search regulations…" oninput="renderRegs()">
+    </div>
+    <div id="regResults"></div>
+  </div>
+
+  <!-- DEFINITIONS -->
+  <div id="defs" class="tab-content">
+    <div class="search-box">
+      <input id="defSearch" placeholder="Search definitions…" oninput="renderDefs()">
+    </div>
+    <div id="defResults"></div>
+  </div>
+
+  <!-- EUAA GUIDELINES -->
+  <div id="guides" class="tab-content">
+    <div class="stats-panel">
+      <div class="stat-card">
+        <h3>27</h3>
+        <p>EUAA Guidelines</p>
+      </div>
+      <div class="stat-card">
+        <h3>2024–2026</h3>
+        <p>Coverage</p>
+      </div>
     </div>
 
-    <div class="tab-nav">
-        <button class="tab-button active" onclick="switchTab('regulations')">📋 Regulations</button>
-        <button class="tab-button" onclick="switchTab('definitions')">📖 Definitions</button>
-        <button class="tab-button" onclick="switchTab('guidelines')">🔍 EUAA Guidelines</button>
-        <button class="tab-button" onclick="switchTab('case-law')">📚⚖️ EUAA Case Law</button>
-        <button class="tab-button" onclick="switchTab('caseworker')">⚖️ Caseworker Index</button>
+    <div class="search-box">
+      <input id="guideSearch" placeholder="Search EUAA guidelines…" oninput="renderGuides()">
     </div>
+    <div id="guideResults"></div>
+  </div>
 
-    <!-- ===================== -->
-    <!-- EUAA GUIDELINES TAB -->
-    <!-- ===================== -->
-    <div id="guidelines-tab" class="tab-content">
-        <div class="stats-panel">
-            <div class="stat-card">
-                <!-- ✅ NUMBER UPDATED / VERIFIED -->
-                <h3 id="guide-count">27</h3>
-                <p>Guidelines</p>
-            </div>
-            <div class="stat-card">
-                <h3>2024–2026</h3>
-                <p>Years</p>
-            </div>
-        </div>
+  <!-- CASE LAW -->
+  <div id="cases" class="tab-content">
+    <p class="meta">EUAA case law entries are loaded from the database.</p>
+    <div id="caseResults"></div>
+  </div>
 
-        <div class="search-section">
-            <div class="search-box">
-                <input type="text" id="guideSearchInput" placeholder="🔍 Search guidelines..." oninput="searchGuidelines()">
-                <button class="clear-btn" id="guideClearBtn" onclick="clearGuideSearch()">✕</button>
-            </div>
-        </div>
-
-        <div class="category-filter">
-            <label>Filter: </label>
-            <select id="categorySelect" onchange="filterByCategory()">
-                <option value="all">All Categories</option>
-            </select>
-        </div>
-
-        <div class="results" id="guidelinesResults"></div>
+  <!-- CASEWORKER INDEX -->
+  <div id="index" class="tab-content">
+    <div class="search-box">
+      <input id="indexSearch" placeholder="Search caseworker index…" oninput="renderIndex()">
     </div>
+    <div id="indexResults"></div>
+  </div>
 
-    <!-- ALL OTHER TABS (regulations, definitions, case law, index)
-         remain unchanged and fully intact -->
 </div>
 
 <script>
-/* ✅ Entire JavaScript block retained
-   ✅ No mascot logic existed in JS
-   ✅ No functional changes were required
-*/
+let DB = {};
+
+function switchTab(id) {
+  document.querySelectorAll('.tab-content').forEach(t => t.classList.remove('active'));
+  document.querySelectorAll('.tab-button').forEach(b => b.classList.remove('active'));
+  document.getElementById(id).classList.add('active');
+  event.target.classList.add('active');
+}
+
+fetch('complete_database.json')
+  .then(r => r.json())
+  .then(data => {
+    DB = data || {};
+    renderRegs();
+    renderDefs();
+    renderGuides();
+    renderCases();
+    renderIndex();
+  })
+  .catch(() => {
+    document.body.innerHTML = "<h2 style='text-align:center;color:red'>Error loading database</h2>";
+  });
+
+function renderRegs() {
+  const q = (regSearch.value || "").toLowerCase();
+  const list = (DB.regulations || []).filter(r =>
+    (r.title + r.description).toLowerCase().includes(q)
+  );
+  regResults.innerHTML = list.length ? list.map(r => `
+    <div class="card">
+      <span class="badge">${r.number}</span>
+      <h3>${r.title}</h3>
+      <div class="meta">${r.adopted}</div>
+      <p>${r.description}</p>
+      <a class="link" href="${r.eur_lex_url}" target="_blank">EUR‑Lex →</a>
+    </div>`).join("") : `<div class="no-results">No regulations found</div>`;
+}
+
+function renderDefs() {
+  const q = (defSearch.value || "").toLowerCase();
+  const list = (DB.definitions || []).filter(d =>
+    (d.term + d.definition).toLowerCase().includes(q)
+  ).sort((a,b)=>a.term.localeCompare(b.term));
+  defResults.innerHTML = list.length ? list.map(d => `
+    <div class="card">
+      <h3>${d.term}</h3>
+      <p>${d.definition}</p>
+      ${d.regulation ? `<div class="meta">${d.regulation}</div>` : ""}
+    </div>`).join("") : `<div class="no-results">No definitions found</div>`;
+}
+
+function renderGuides() {
+  const q = (guideSearch.value || "").toLowerCase();
+  const list = (DB.euaa_guidelines || []).filter(g =>
+    (g.title + g.description).toLowerCase().includes(q)
+  );
+  guideResults.innerHTML = list.length ? list.map(g => `
+    <div class="card">
+      <span class="badge">${g.category}</span>
+      <h3>${g.title}</h3>
+      <div class="meta">${g.date}</div>
+      <p>${g.description}</p>
+      <div class="keywords">${g.keywords.map(k=>`<span>${k}</span>`).join("")}</div>
+      <a class="link" href="${g.url}" target="_blank">EUAA →</a>
+    </div>`).join("") : `<div class="no-results">No guidelines found</div>`;
+}
+
+function renderCases() {
+  const list = DB.case_law || [];
+  caseResults.innerHTML = list.length ? list.map(c => `
+    <div class="card">
+      <h3>${c.title || "Case"}</h3>
+      <div class="meta">${c.court || ""} ${c.year || ""}</div>
+      <p>${c.summary || ""}</p>
+      ${c.pdf ? `<a class="link" href="${c.pdf}" target="_blank">PDF →</a>` : ""}
+    </div>`).join("") : `<div class="no-results">No case law loaded</div>`;
+}
+
+function renderIndex() {
+  const q = (indexSearch.value || "").toLowerCase();
+  const cats = DB.caseworker_index?.categories || [];
+  const hits = cats.filter(c =>
+    JSON.stringify(c).toLowerCase().includes(q)
+  );
+  indexResults.innerHTML = hits.length ? hits.map(c => `
+    <div class="card">
+      <h3>${c.name}</h3>
+      <div class="meta">${c.regulation}</div>
+    </div>`).join("") : `<div class="no-results">No matches</div>`;
+}
 </script>
 
 </body>
